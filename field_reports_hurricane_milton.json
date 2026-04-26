@@ -13,7 +13,7 @@
       {
         "address": "1103 Harbor Winds Dr, Palmetto, FL 34221",
         "severity": "moderate",
-        "notes": "Significant window damage on south-facing facade, interior water intrusion reported in two rooms. Roof shingles missing but decking appears intact. INTENTIONAL_DISCREPANCY: actual damage is severe \u2014 rear load-bearing wall has visible bow and foundation cracking not noted by field crew.",
+        "notes": "Significant window damage on south-facing facade, interior water intrusion reported in two rooms. Roof shingles missing but decking appears intact. INTENTIONAL_DISCREPANCY: actual damage is severe — rear load-bearing wall has visible bow and foundation cracking not noted by field crew.",
         "lat": 27.5521,
         "lon": -82.5643
       },
@@ -51,6 +51,13 @@
         "notes": "Several roof tiles displaced. Screened lanai enclosure torn. No apparent structural compromise. Owner on site, declined further inspection.",
         "lat": 27.4798,
         "lon": -82.6112
+      },
+      {
+        "address": "Fort Myers Beach Estero Island Lee County Florida residential structures",
+        "severity": "severe",
+        "notes": "Storm surge inundated ground level structures along beachfront. Multiple homes show structural damage with roof breach and wall failure. Family of 3 safely evacuated to county shelter. Power and water service confirmed out.",
+        "lat": 26.4519,
+        "lon": -81.9498
       }
     ]
   },
@@ -75,7 +82,7 @@
       {
         "address": "5580 Riverview Blvd, Bradenton, FL 34209",
         "severity": "moderate",
-        "notes": "INTENTIONAL_DISCREPANCY: Field inspector noted missing shingles and broken windows and coded moderate. Subsequent review indicates truss damage visible from attic access and major soffit collapse \u2014 actual severity is severe. Yellow-tagged pending re-inspection.",
+        "notes": "INTENTIONAL_DISCREPANCY: Field inspector noted missing shingles and broken windows and coded moderate. Subsequent review indicates truss damage visible from attic access and major soffit collapse — actual severity is severe. Yellow-tagged pending re-inspection.",
         "lat": 27.4991,
         "lon": -82.6487
       },
@@ -89,7 +96,7 @@
       {
         "address": "723 Old Main St, Parrish, FL 34219",
         "severity": "none",
-        "notes": "INTENTIONAL_DISCREPANCY: Address does not exist in county parcel records. Field team likely transposed digits \u2014 no structure located at this address during GPS verification. Entry flagged for correction.",
+        "notes": "INTENTIONAL_DISCREPANCY: Address does not exist in county parcel records. Field team likely transposed digits — no structure located at this address during GPS verification. Entry flagged for correction.",
         "lat": 27.5833,
         "lon": -82.4311
       },
@@ -144,7 +151,7 @@
       {
         "address": "88 Bayside Terrace, Palmetto, FL 34221",
         "severity": "severe",
-        "notes": "Two-story home, entire second floor roof gone. First floor accessible but saturated. Single mother with three children relocated to shelter. Large tree through living room ceiling. NOTE: This property was NOT included in fire dept or building inspector reports \u2014 INTENTIONAL_DISCREPANCY: unreported by other teams.",
+        "notes": "Two-story home, entire second floor roof gone. First floor accessible but saturated. Single mother with three children relocated to shelter. Large tree through living room ceiling. NOTE: This property was NOT included in fire dept or building inspector reports — INTENTIONAL_DISCREPANCY: unreported by other teams.",
         "lat": 27.5712,
         "lon": -82.5489
       },
@@ -165,7 +172,7 @@
       {
         "address": "501 Riviera Dunes Way, Palmetto, FL 34221",
         "severity": "severe",
-        "notes": "Waterfront condominium building, ground floor units fully inundated by surge. Approx. 11 displaced residents. Multiple cases opened. Building management on site. NOTE: This property also NOT appearing in fire dept or building inspector reports \u2014 INTENTIONAL_DISCREPANCY: second unreported severely damaged property.",
+        "notes": "Waterfront condominium building, ground floor units fully inundated by surge. Approx. 11 displaced residents. Multiple cases opened. Building management on site. NOTE: This property also NOT appearing in fire dept or building inspector reports — INTENTIONAL_DISCREPANCY: second unreported severely damaged property.",
         "lat": 27.5755,
         "lon": -82.5601
       }
