@@ -1,7 +1,7 @@
 # DisasterLens: Detailed Project Report
 
 **Submission for:** Geospatial Video Intelligence Hackathon, Track 03 (Multimodal Geospatial Workloads)
-**Date:** April 26, 2025
+**Date:** April 26, 2026
 **Team:**
 * Ushasree Mindala
 * Ajay Gautam
