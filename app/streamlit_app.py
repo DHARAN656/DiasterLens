@@ -182,7 +182,7 @@ def _render_satellite_section(event_id):
         )
         col_pre, col_post, col_meta = st.columns([2, 2, 1])
         with col_pre:
-            st.caption("**Pre-disaster satellite capture** · Esri Wayback release 10 · **Feb 20, 2014**")
+            st.caption("**Pre-disaster satellite capture** · Esri Wayback release 10")
             pre_b64 = v.get("pre_b64", "")
             if pre_b64:
                 st.image(base64.b64decode(pre_b64), use_container_width=True)
