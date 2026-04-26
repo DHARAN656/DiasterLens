@@ -2,9 +2,13 @@
 
 **Submission for:** Geospatial Video Intelligence Hackathon, Track 03 (Multimodal Geospatial Workloads)
 **Date:** April 26, 2026
-**Author:** Dhara
+**Team:**
+* Dharan Kumar Kunati
+* Ushasree Mindala
+* Ajay Gowtham
+
 **Repository:** https://github.com/DHARAN656/DiasterLens
-**Live application:** Deployed on Streamlit Community Cloud
+**Live application:** https://diasterlens-dnvx2mg3kbmiivmkugwgkj.streamlit.app/
 
 ## Executive Summary
 

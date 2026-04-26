@@ -2,9 +2,7 @@
 
 Multimodal damage assessment for disaster response, powered by Amazon Bedrock with TwelveLabs Marengo 3.0, TwelveLabs Pegasus 1.2, and Anthropic Claude Sonnet.
 
-Built for the Geospatial Video Intelligence Hackathon, Track 03 (Multimodal Geospatial Workloads), April 2026.
-
-> Live application: deployed on Streamlit Community Cloud. The deployed URL is added to the repository description once provisioning completes.
+**Live application:** https://diasterlens-dnvx2mg3kbmiivmkugwgkj.streamlit.app/
 
 ## The Problem in One Paragraph
 
@@ -51,7 +49,7 @@ The unreported and conflict categories are the key intelligence outputs. They te
 
 ## Foundation Models
 
-All models run inside Amazon Bedrock in the us-east-1 region. No personal API keys are used. Inference stays inside the AWS account boundary.
+All models run inside Amazon Bedrock in the us-east-1 region.
 
 | Model | Bedrock model identifier | Purpose |
 |---|---|---|
@@ -119,12 +117,11 @@ streamlit run app/streamlit_app.py
 
 Open the local URL printed in the terminal (typically http://localhost:8501).
 
-## Deployment to Streamlit Community Cloud
+## Live Application
 
-1. Visit https://share.streamlit.io and sign in with GitHub.
-2. Create a new app pointing at this repository, branch main, main file path `app/streamlit_app.py`.
-3. Open Advanced settings and paste your AWS credentials and S3 bucket name into the Secrets text box using the format shown in `.streamlit/secrets.toml.example`.
-4. Click Deploy.
+The application is deployed and publicly accessible here:
+
+**https://diasterlens-dnvx2mg3kbmiivmkugwgkj.streamlit.app/**
 
 The pre computed result files (pegasus_results.json, geo_results.json, satellite_results.json, fusion_results.json, frame previews) are checked into the repository. The application reads them directly, so the demo continues to render maps, fusion tables, and frame grids even if AWS credentials expire. Only video playback, the S3 storage browser, and FEMA summary generation require live AWS access.
 
@@ -161,13 +158,25 @@ DiasterLens/
 
 For the deeper write up with use case scenarios, validation metrics, and the full mission impact analysis, see `HACKATHON_REPORT.md` in this repository.
 
-## License
-
-This project was built for educational and hackathon demonstration purposes. The TwelveLabs and Anthropic model usage is governed by their respective Amazon Bedrock terms of service.
-
 ## Acknowledgements
 
 * TwelveLabs for the Marengo and Pegasus video understanding models
 * Anthropic for Claude Sonnet
 * Amazon Web Services for the Bedrock platform and the workshop environment
 * FEMA for publishing the 2025 Preliminary Damage Assessment Guide that informed the system requirements
+
+### Source Video Footage
+
+The drone and aerial footage used in this demo was sourced from publicly available YouTube videos.
+
+**Hurricane Milton:**
+* https://www.youtube.com/watch?v=zJyDF8_NHcs
+
+**Palisades Wildfire:**
+* https://www.youtube.com/watch?v=7Kx52tBJQjo
+* https://www.youtube.com/watch?v=An9t0zJPo1I
+* https://www.youtube.com/watch?v=BuHbUnu5XpY
+* https://www.youtube.com/watch?v=EGDBrlvHruw
+* https://www.youtube.com/watch?v=GEiwr0RXH8U
+
+Credit and copyright remain with the original video creators. Footage was used solely for non commercial hackathon demonstration purposes.
