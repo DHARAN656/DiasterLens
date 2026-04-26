@@ -9,16 +9,15 @@
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-  html, body {
+  html {
     width: 100%;
-    height: 100%;
   }
 
   body {
     font-family: 'Inter', Arial, sans-serif;
     background: #0d1117;
     color: #e6edf3;
-    min-height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -55,12 +54,10 @@
 
   /* ── MAIN GRID ── */
   main {
-    flex: 1;
     display: grid;
     grid-template-columns: 2.2fr 2fr 1.8fr;
     gap: 18px;
     padding: 20px 40px;
-    min-height: 0;
   }
 
   .col1, .col2, .col3 { display: flex; flex-direction: column; gap: 14px; }
@@ -204,14 +201,16 @@
     <div class="card">
       <div class="card-title">The Problem</div>
       <p class="problem-text">
-        U.S. disasters cost <strong>~$149 billion every year</strong> (2020–2024 avg, ClimateSmart)
-        and have claimed <strong>~6,300 lives</strong> over the last decade (NOAA).
-        Yet after each event, the first bottleneck is not rescue — it is paperwork.
-        Emergency managers must produce a <strong>structure-level damage inventory</strong>
-        before a single dollar of federal aid can flow, a process that today takes
-        <strong>2–3 days</strong> of hand-filed forms across teams that never share data.
-        Drone footage, satellite imagery, and field reports sit in separate silos.
-        Missed properties never reach the federal package. Survivors wait.
+        Disasters — hurricanes, wildfires, floods — cost the United States roughly
+        <strong>$149 billion a year</strong> (2020–2024, ClimateSmart) and
+        <strong>~6,300 lives</strong> over the past decade (NOAA).
+        The federal aid that follows hinges on one gating step — the Preliminary Damage
+        Assessment — which is still built by hand, one address at a time, by isolated
+        teams that compare notes days later. Drone footage, satellite imagery, and
+        inspector field reports each live in a separate silo. Properties no team
+        visited simply disappear from the federal package.
+        <strong>DisasterLens</strong> fuses all four sources automatically, surfaces
+        missed damage, and delivers a FEMA-ready inventory in under 90 minutes.
       </p>
     </div>
 
@@ -244,7 +243,7 @@
         county inventory took weeks — and
         <strong>Palisades Wildfire (CA, Jan 2025)</strong> — 6,800+ structures destroyed,
         parcel tagging ran through February 2025.
-        Both are exact use-cases where DisasterLens cuts the critical path.
+        Both are exact use-cases where <strong>DisasterLens</strong> cuts the critical path.
       </p>
     </div>
 
@@ -322,7 +321,7 @@
       <p class="problem-text">
         Today's baseline is a GIS (Geographic Information System) analyst manually
         comparing drone footage, satellite tiles, and printed field reports — typically
-        one site every 30–60 minutes. DisasterLens ran the same 5 locations in
+        one site every 30–60 minutes. <strong>DisasterLens</strong> ran the same 5 locations in
         under 45 minutes total, surfaced an unreported site the manual review
         would have filed later, and flagged a severity conflict the two human teams
         had not yet reconciled.
@@ -384,11 +383,10 @@
     </div>
 
     <div class="card">
-      <div class="card-title">Honest Limitations</div>
+      <div class="card-title">Limitations</div>
       <ul class="limit-list">
-        <li><strong>Synthetic field data</strong> — real post-disaster field reports and parcel damage records are not publicly available; we generated realistic substitutes using Claude, structured to match the FEMA PDA format</li>
+        <li><strong>Synthetic field data</strong> — real post-disaster field reports and parcel records are not publicly available; we generated realistic substitutes using Claude, structured to match the FEMA PDA format</li>
         <li><strong>Drone footage is public YouTube video</strong> — not mission-tagged UAS feeds; no embedded GPS, so geo-location is inferred from visible landmarks</li>
-        <li><strong>Pre-event satellite is from 2014</strong> — Esri Wayback's earliest tile; a production system would use imagery from days before the event</li>
         <li><strong>Not yet tested at scale</strong> — validated on 5 hand-labeled sites across 2 events; larger events with hundreds of addresses need further testing</li>
       </ul>
     </div>

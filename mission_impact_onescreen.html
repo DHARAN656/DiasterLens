@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>DisasterLens — Mission Impact Brief</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  @page { size: 11in 8.5in landscape; margin: 0; }
+
+  html, body {
+    width: 11in;
+    height: 8.5in;
+    overflow: hidden;
+    font-family: 'Inter', Arial, sans-serif;
+    background: #0d1117;
+    color: #e6edf3;
+    font-size: 9px;
+  }
+
+  body {
+    display: grid;
+    grid-template-rows: 46px 1fr 26px;
+  }
+
+  /* ── HEADER ── */
+  header {
+    background: linear-gradient(135deg, #161b22, #1c2333);
+    border-bottom: 2px solid #e05252;
+    padding: 0 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo { display: flex; align-items: center; gap: 10px; }
+  .logo-icon {
+    width: 28px; height: 28px; border-radius: 6px;
+    background: #e05252;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px;
+  }
+  .logo h1 { font-size: 16px; font-weight: 800; color: #fff; }
+  .logo p  { font-size: 8px; color: #8b949e; margin-top: 1px; }
+  .badge {
+    display: inline-block;
+    background: rgba(224,82,82,0.15); border: 1px solid #e05252;
+    color: #e05252; font-size: 8px; font-weight: 700;
+    padding: 2px 8px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px;
+  }
+  .hdr-right { text-align: right; }
+  .hdr-right p { font-size: 8px; color: #8b949e; margin-top: 3px; }
+
+  /* ── MAIN 3-COL ── */
+  main {
+    display: grid;
+    grid-template-columns: 2.1fr 2fr 1.7fr;
+    gap: 10px;
+    padding: 10px 28px;
+    overflow: hidden;
+  }
+
+  .col { display: flex; flex-direction: column; gap: 7px; }
+
+  .card {
+    background: #161b22;
+    border: 1px solid #21262d;
+    border-radius: 7px;
+    padding: 7px 9px;
+    flex-shrink: 0;
+  }
+
+  .ct {
+    font-size: 7.5px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.9px; color: #8b949e; margin-bottom: 6px;
+    display: flex; align-items: center; gap: 5px;
+  }
+  .ct::before {
+    content: ''; display: block; width: 2px; height: 10px;
+    border-radius: 2px; background: #e05252;
+  }
+
+  p.txt { font-size: 9px; color: #c9d1d9; line-height: 1.5; }
+  p.txt strong { color: #ff6b6b; }
+  b.brand { color: #58a6ff; }
+
+  /* user chips */
+  .chips { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; }
+  .chip {
+    background: #0d1117; border: 1px solid #30363d;
+    border-radius: 5px; padding: 5px 7px;
+    font-size: 8.5px; color: #c9d1d9; line-height: 1.35;
+  }
+  .chip .lbl {
+    font-size: 7px; color: #8b949e; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 2px;
+  }
+
+  /* impact table */
+  table { width: 100%; border-collapse: collapse; font-size: 8.5px; }
+  thead tr { background: #0d1117; }
+  thead th {
+    padding: 4px 6px; text-align: left;
+    color: #8b949e; font-size: 7.5px; text-transform: uppercase; letter-spacing: 0.3px;
+  }
+  tbody tr:nth-child(odd)  { background: #0d1117; }
+  tbody tr:nth-child(even) { background: #161b22; }
+  tbody tr:last-child { border-top: 1px solid #e05252; font-weight: 700; color: #fff; }
+  td { padding: 4px 6px; color: #c9d1d9; }
+  td.ph { color: #e6edf3; font-weight: 500; }
+  td.go { color: #3fb950; font-weight: 700; }
+  td.gr { color: #8b949e; }
+
+  /* output pills */
+  .pills { display: flex; gap: 6px; }
+  .pill {
+    flex: 1; border-radius: 6px; padding: 6px 7px;
+    display: flex; flex-direction: column; gap: 3px;
+  }
+  .pill.g { background: rgba(63,185,80,.1);  border: 1px solid #3fb950; }
+  .pill.y { background: rgba(210,153,34,.1); border: 1px solid #d2992a; }
+  .pill.r { background: rgba(224,82,82,.1);  border: 1px solid #e05252; }
+  .pl { font-weight: 700; font-size: 8.5px; }
+  .pl.g { color: #3fb950; }
+  .pl.y { color: #d2992a; }
+  .pl.r { color: #e05252; }
+  .pd { color: #8b949e; font-size: 7.5px; line-height: 1.35; }
+
+  /* tech rows */
+  .tech { display: flex; flex-direction: column; gap: 5px; }
+  .trow {
+    background: #0d1117; border: 1px solid #21262d;
+    border-radius: 5px; padding: 5px 7px;
+    display: flex; align-items: flex-start; gap: 6px;
+  }
+  .ti { font-size: 13px; flex-shrink: 0; }
+  .tn { font-size: 9px; font-weight: 700; color: #e6edf3; }
+  .tr { font-size: 7.5px; color: #8b949e; margin-top: 2px; line-height: 1.3; }
+
+  /* scale grid */
+  .sgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; }
+  .schip {
+    background: #0d1117; border: 1px solid #21262d;
+    border-radius: 5px; padding: 5px 7px;
+  }
+  .sn { font-size: 13px; font-weight: 800; color: #58a6ff; }
+  .sl { font-size: 7.5px; color: #8b949e; margin-top: 2px; line-height: 1.25; }
+
+  /* limits */
+  .lims { list-style: none; display: flex; flex-direction: column; gap: 5px; }
+  .lims li {
+    font-size: 8.5px; color: #c9d1d9; line-height: 1.4;
+    padding-left: 12px; position: relative;
+  }
+  .lims li::before {
+    content: '▸'; position: absolute; left: 0;
+    color: #e05252; font-size: 8px; top: 0;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #161b22; border-top: 1px solid #21262d;
+    padding: 0 28px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .fl { font-size: 8px; color: #8b949e; }
+  .fl a { color: #58a6ff; text-decoration: none; }
+  .fr { font-size: 7.5px; color: #484f58; }
+
+  @media print {
+    html, body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">
+    <div class="logo-icon">🔍</div>
+    <div>
+      <h1>DisasterLens</h1>
+      <p>Multimodal AI Damage Assessment · Geospatial Video Intelligence Hackathon</p>
+    </div>
+  </div>
+  <div class="hdr-right">
+    <span class="badge">Mission Impact Brief</span>
+    <p>Track 03 — Multimodal Geospatial Workloads · April 26, 2026</p>
+  </div>
+</header>
+
+<!-- MAIN -->
+<main>
+
+  <!-- COL 1 -->
+  <div class="col">
+
+    <div class="card">
+      <div class="ct">The Problem</div>
+      <p class="txt">
+        Disasters — hurricanes, wildfires, floods — cost the U.S. roughly
+        <strong>$149 billion/year</strong> (2020–2024, ClimateSmart) and
+        <strong>~6,300 lives</strong> over the last decade (NOAA).
+        Federal aid hinges on one gating step — the Preliminary Damage Assessment —
+        still built by hand, one address at a time, by isolated teams.
+        Drone footage, satellite imagery, and field reports live in separate silos.
+        Missed properties disappear from the federal package.
+        <b class="brand">DisasterLens</b> fuses all four sources automatically and
+        delivers a FEMA-ready inventory in under 90 minutes.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="ct">End User &amp; Use Case</div>
+      <div class="chips">
+        <div class="chip"><div class="lbl">Who</div>State/Local/Tribal/Territorial (SLTT) Emergency Manager</div>
+        <div class="chip"><div class="lbl">Workflow</div>FEMA Preliminary Damage Assessment (PDA) — required before Presidential disaster declaration</div>
+        <div class="chip"><div class="lbl">When</div>Hours 4–12 post-impact, before Joint PDA field teams mobilise</div>
+        <div class="chip"><div class="lbl">Inputs</div>UAS drone video · Esri satellite tiles · Field reports · Parcel CSV</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="ct">Real Events Validated</div>
+      <p class="txt">
+        Tested on <strong>Hurricane Milton (FL, Oct 2024)</strong> — $34 B damage, county inventory took weeks —
+        and <strong>Palisades Wildfire (CA, Jan 2025)</strong> — 6,800+ structures destroyed,
+        parcel tagging ran through Feb 2025.
+        Both are exact use-cases where <b class="brand">DisasterLens</b> cuts the critical path.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- COL 2 -->
+  <div class="col">
+
+    <div class="card">
+      <div class="ct">Quantified Operational Value</div>
+      <table>
+        <thead><tr>
+          <th>Assessment Phase</th><th>Manual Today</th><th>DisasterLens</th><th>Reduction</th>
+        </tr></thead>
+        <tbody>
+          <tr><td class="ph">Inventory damaged structures</td><td class="gr">4–8 hr/100 bldgs</td><td>&lt; 5 min</td><td class="go">~99%</td></tr>
+          <tr><td class="ph">Cross-check field reports</td><td class="gr">2–4 hr/report</td><td>Seconds</td><td class="go">~99%</td></tr>
+          <tr><td class="ph">Identify unreported damage</td><td class="gr">Often missed</td><td>Automatic</td><td class="go">New</td></tr>
+          <tr><td class="ph">Generate FEMA IA/PA package</td><td class="gr">4–8 hours</td><td>&lt; 1 min</td><td class="go">~98%</td></tr>
+          <tr><td class="ph">IDA → FEMA package (total)</td><td class="gr">2–3 days</td><td>45–90 min</td><td class="go">~95%</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <div class="ct">Three Output Categories</div>
+      <div class="pills">
+        <div class="pill g"><div class="pl g">✅ Validated</div><div class="pd">≥ 2 sources agree · confidence ≥ 0.70 · ready for federal package</div></div>
+        <div class="pill y"><div class="pl y">⚠ Unreported</div><div class="pd">AI detects damage · no field report filed · dispatch follow-up</div></div>
+        <div class="pill r"><div class="pl r">🚩 Conflict</div><div class="pd">Sources disagree ≥ 2 severity levels · flag for senior analyst</div></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="ct">Comparison Baseline</div>
+      <p class="txt">
+        Today's baseline: a GIS analyst manually comparing drone footage, satellite tiles,
+        and printed field reports — typically one site every 30–60 minutes.
+        <b class="brand">DisasterLens</b> processed the same 5 locations in under 45 minutes total,
+        surfaced an unreported site, and flagged a severity conflict the two human
+        teams had not yet reconciled.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- COL 3 -->
+  <div class="col">
+
+    <div class="card">
+      <div class="ct">AI Stack (Amazon Bedrock)</div>
+      <div class="tech">
+        <div class="trow"><div class="ti">🎥</div><div><div class="tn">TwelveLabs Marengo 3.0</div><div class="tr">512-dim clip embeddings — semantic video search</div></div></div>
+        <div class="trow"><div class="ti">🔎</div><div><div class="tn">TwelveLabs Pegasus 1.2</div><div class="tr">Structured damage JSON from full video</div></div></div>
+        <div class="trow"><div class="ti">🤖</div><div><div class="tn">Claude Sonnet 4.6</div><div class="tr">Geo-location · satellite change detection · FEMA brief</div></div></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="ct">Scaling Assumptions</div>
+      <div class="sgrid">
+        <div class="schip"><div class="sn">1,000</div><div class="sl">structures per event in 45–90 min</div></div>
+        <div class="schip"><div class="sn">FedRAMP</div><div class="sl">Bedrock High + DoD IL-5 on GovCloud</div></div>
+        <div class="schip"><div class="sn">4 sources</div><div class="sl">video · satellite · field report · parcel</div></div>
+        <div class="schip"><div class="sn">Pilot</div><div class="sl">FL DIVEM → FEMA Region IV joint PDA</div></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="ct">Limitations</div>
+      <ul class="lims">
+        <li><strong>Synthetic field data</strong> — real post-disaster reports and parcel records aren't publicly available; we generated realistic substitutes structured to match the FEMA PDA format</li>
+        <li><strong>Public YouTube footage</strong> — not mission UAS feeds; no GPS embedded, so geo-location is inferred from visible landmarks</li>
+        <li><strong>Small validation set</strong> — tested on 5 sites across 2 events; scale testing needed for large incidents</li>
+      </ul>
+    </div>
+
+  </div>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="fl">
+    Team: Ushasree Mindala · Ajay Gautam · Dharan Kumar Kunati &nbsp;|&nbsp;
+    <a href="https://diasterlens-dnvx2mg3kbmiivmkugwgkj.streamlit.app/">diasterlens.streamlit.app</a> &nbsp;|&nbsp;
+    <a href="https://github.com/DHARAN656/DiasterLens">github.com/DHARAN656/DiasterLens</a>
+  </div>
+  <div class="fr">Geospatial Video Intelligence Hackathon · T-REX · Apr 25–26 2026</div>
+</footer>
+
+</body>
+</html>
