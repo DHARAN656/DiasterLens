@@ -169,7 +169,6 @@ def _render_satellite_section(event_id):
     st.info(
         "**How this works:** GPS coordinates were inferred from drone footage by Pegasus 1.2 + Claude AI. "
         "We then pulled satellite tiles at those exact coordinates from two sources and compared them using Claude AI. "
-        "⚠ Tile currency depends on basemap update schedules — not guaranteed to exactly match the disaster date. "
         "Visual differences may be subtle but the AI detects pixel-level changes in structure density, color, and texture."
     )
     for k, v in sat_records:
@@ -190,7 +189,7 @@ def _render_satellite_section(event_id):
             else:
                 st.info("No pre-disaster tile")
         with col_post:
-            st.caption("**Post-disaster satellite capture** · Esri World Imagery · **Current (2025–2026)**")
+            st.caption("**Post-disaster satellite capture** · Esri World Imagery")
             post_b64 = v.get("post_b64", "")
             if post_b64:
                 st.image(base64.b64decode(post_b64), use_container_width=True)
