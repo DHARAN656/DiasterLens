@@ -574,7 +574,13 @@ with tab_dash:
     with st.expander("📦 S3 Event Storage"):
         st.caption("Shows videos, field reports, and parcel data uploaded per event.")
         if st.button("🔄 Load S3 file listing", key="s3_refresh"):
-            s3 = aws_session.s3()
+            try:
+                s3 = aws_session.s3()
+            except Exception as e:
+                st.error(f"Could not connect to AWS: {type(e).__name__} — check credentials/region in secrets or env vars.")
+                s3 = None
+            if s3 is None:
+                st.stop()
             total = 0
 
             event_meta = {
@@ -605,26 +611,36 @@ with tab_dash:
                         st.caption(f"&nbsp;&nbsp;&nbsp;⚠ {key} — not found in S3")
 
                 # Field Reports
-                resp = s3.list_objects_v2(Bucket=config.S3_BUCKET, Prefix=reports_prefix)
-                items = [o for o in resp.get("Contents", []) if o["Size"] > 0]
-                if items:
-                    st.markdown(f"**Field Reports** — {len(items)} file(s)")
-                    for obj in items:
-                        size_kb = obj["Size"] // 1024
-                        url = s3.generate_presigned_url("get_object", Params={"Bucket": config.S3_BUCKET, "Key": obj["Key"]}, ExpiresIn=3600)
-                        st.markdown(f"&nbsp;&nbsp;&nbsp;[📥 {obj['Key'].split('/')[-1]}]({url}) &nbsp; `{size_kb:,} KB`", unsafe_allow_html=True)
-                    event_total += len(items)
+                try:
+                    resp = s3.list_objects_v2(Bucket=config.S3_BUCKET, Prefix=reports_prefix)
+                    items = [o for o in resp.get("Contents", []) if o["Size"] > 0]
+                    if items:
+                        st.markdown(f"**Field Reports** — {len(items)} file(s)")
+                        for obj in items:
+                            size_kb = obj["Size"] // 1024
+                            url = s3.generate_presigned_url("get_object", Params={"Bucket": config.S3_BUCKET, "Key": obj["Key"]}, ExpiresIn=3600)
+                            st.markdown(f"&nbsp;&nbsp;&nbsp;[📥 {obj['Key'].split('/')[-1]}]({url}) &nbsp; `{size_kb:,} KB`", unsafe_allow_html=True)
+                        event_total += len(items)
+                    else:
+                        st.caption("&nbsp;&nbsp;&nbsp;No field reports found in S3.")
+                except Exception as e:
+                    st.warning(f"Field Reports — could not list S3 objects: {type(e).__name__}")
 
                 # Parcel Data
-                resp = s3.list_objects_v2(Bucket=config.S3_BUCKET, Prefix=parcels_prefix)
-                items = [o for o in resp.get("Contents", []) if o["Size"] > 0]
-                if items:
-                    st.markdown(f"**Parcel Data** — {len(items)} file(s)")
-                    for obj in items:
-                        size_kb = obj["Size"] // 1024
-                        url = s3.generate_presigned_url("get_object", Params={"Bucket": config.S3_BUCKET, "Key": obj["Key"]}, ExpiresIn=3600)
-                        st.markdown(f"&nbsp;&nbsp;&nbsp;[📥 {obj['Key'].split('/')[-1]}]({url}) &nbsp; `{size_kb:,} KB`", unsafe_allow_html=True)
-                    event_total += len(items)
+                try:
+                    resp = s3.list_objects_v2(Bucket=config.S3_BUCKET, Prefix=parcels_prefix)
+                    items = [o for o in resp.get("Contents", []) if o["Size"] > 0]
+                    if items:
+                        st.markdown(f"**Parcel Data** — {len(items)} file(s)")
+                        for obj in items:
+                            size_kb = obj["Size"] // 1024
+                            url = s3.generate_presigned_url("get_object", Params={"Bucket": config.S3_BUCKET, "Key": obj["Key"]}, ExpiresIn=3600)
+                            st.markdown(f"&nbsp;&nbsp;&nbsp;[📥 {obj['Key'].split('/')[-1]}]({url}) &nbsp; `{size_kb:,} KB`", unsafe_allow_html=True)
+                        event_total += len(items)
+                    else:
+                        st.caption("&nbsp;&nbsp;&nbsp;No parcel data found in S3.")
+                except Exception as e:
+                    st.warning(f"Parcel Data — could not list S3 objects: {type(e).__name__}")
 
                 st.caption(f"{event_total} files for this event")
                 total += event_total
@@ -697,62 +713,73 @@ Multi-source fusion combines **Pegasus video** detections, **Claude Vision** geo
         "Correct?": ["✅", "✅", "✅", "✅", "✅"],
     }
     st.dataframe(pd.DataFrame(val_data), use_container_width=True)
-    st.caption("* Field team rated Temescal minor; AI video shows destroyed — 2+ severity gap correctly flagged as CONFLICT")
-
-    vc1, vc2, vc3, vc4 = st.columns(4)
-    vc1.metric("Precision", "100%", help="All AI-flagged unreported sites confirmed damaged")
-    vc2.metric("Recall", "100%", help="All known missed sites were detected")
-    vc3.metric("Conflict detection", "1/1", help="The 1 known conflict was correctly flagged")
-    vc4.metric("Pipeline runtime", "~45 min", help="All 6 videos + 4 satellite comparisons")
 
 
 # ── TAB 4: ARCHITECTURE ───────────────────────────────────────────────────────
 with tab_arch:
     st.title("Architecture")
 
-    st.markdown("""
-## Pipeline — End to End
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                      DATA SOURCES                                    │
-│  Drone Video (S3 MP4)  │  Satellite Tiles  │  Field Reports  │  Parcels │
-└────────────┬───────────┴───────┬───────────┴────────┬────────┴────┬─────┘
-             │                   │                     │             │
-         PHASE A                 │                 PHASE A          │
-    ┌────────▼──────────┐        │           ┌─────────▼──────┐    │
-    │ Marengo 3.0 Async │        │           │ Claude Textract│    │
-    │ 512-dim clip embed│        │           │ → JSON entries │    │
-    └────────┬──────────┘        │           └─────────┬──────┘    │
-    ┌────────▼──────────┐        │                     │       ┌────▼──────┐
-    │ Pegasus 1.2 Sync  │   PHASE B               field_reports │ GeoPandas │
-    │ damage JSON/seg   │  ┌─────▼────────────┐        │       │ R-tree idx│
-    └────────┬──────────┘  │ Claude Vision    │        │       └────┬──────┘
-    ┌────────▼──────────┐  │ pre/post compare │        │            │
-    │ Claude AI Vision  │  │ damage_class     │        │            │
-    │ geo-locate frames │  └─────┬────────────┘        │            │
-    └────────┬──────────┘        │                     │            │
-             └──────────────────PHASE C (FUSION)────────┘────────────┘
-                                 │
-                    ┌────────────▼──────────────────┐
-                    │ Spatial join (R-tree, 10m rad) │
-                    │ Entity resolution (RapidFuzz)  │
-                    │ Confidence scoring 0.0–1.0      │
-                    │  +0.4 video  +0.3 satellite    │
-                    │  +0.2 report +0.1 parcel       │
-                    └────────────┬──────────────────┘
-                                 │
-              ┌──────────────────┼──────────────────┐
-        VALIDATED            UNREPORTED           CONFLICTS
-       (≥0.7 conf,         (AI detects,        (severity gap
-        all agree)         no field report)      ≥2 levels)
-                                 │
-                    ┌────────────▼──────────────────┐
-                    │ Claude Sonnet — FEMA PDA brief │
-                    │ GeoJSON + CSV export           │
-                    │ Interactive map                │
-                    └───────────────────────────────┘
-```
-    """)
+    st.markdown("## Pipeline — End to End")
+    st.graphviz_chart("""
+digraph DiasterLens {
+    graph [bgcolor="#0e1117" rankdir=TB fontname="Courier New" pad="0.6" nodesep="0.5" ranksep="0.7"]
+    node  [shape=box style=filled fillcolor="#161b22" color="#ff4b4b"
+           fontcolor="#fafafa" fontname="Courier New" fontsize=11 margin="0.2,0.12"]
+    edge  [color="#ff4b4b" arrowsize=0.9 arrowhead=vee]
+
+    // ── Data sources (same rank) ──────────────────────────────────
+    {rank=source; DroneVideo; SatTiles; FieldRep; Parcels}
+    DroneVideo [label="Drone Video\\n(S3 MP4)"]
+    SatTiles   [label="Satellite Tiles"]
+    FieldRep   [label="Field Reports"]
+    Parcels    [label="Parcels (CSV)"]
+
+    // ── Phase A — video path ──────────────────────────────────────
+    Marengo   [label="PHASE A\\nMarengo 3.0 Async\\n512-dim clip embed"]
+    Pegasus   [label="Pegasus 1.2 Sync\\ndamage JSON / seg"]
+    ClaudeGeo [label="Claude AI Vision\\ngeo-locate frames"]
+
+    // ── Phase B — satellite path ──────────────────────────────────
+    PhaseB [label="PHASE B\\nClaude Vision\\npre/post compare\\ndamage\\_class"]
+
+    // ── Phase A — field-report path ───────────────────────────────
+    ClaudeText [label="PHASE A\\nClaude Textract\\n→ JSON entries"]
+
+    // ── Parcel index ──────────────────────────────────────────────
+    GeoPan [label="GeoPandas\\nR-tree idx"]
+
+    // ── Fusion engine ─────────────────────────────────────────────
+    Fusion [label="PHASE C  (FUSION)\\nSpatial join (R-tree, 10 m radius)\\nEntity resolution (RapidFuzz)\\nConfidence scoring  0.0 – 1.0\\n  +0.4 video    +0.3 satellite\\n  +0.2 report   +0.1 parcel"
+            fillcolor="#1e1e3a" color="#ff4b4b"]
+
+    // ── Output categories (same rank) ────────────────────────────
+    {rank=same; Validated; Unreported; Conflicts}
+    Validated  [label="VALIDATED\\n(≥ 0.7 conf, all agree)"      color="#22c55e"]
+    Unreported [label="UNREPORTED\\n(AI detects, no field report)" color="#eab308"]
+    Conflicts  [label="CONFLICTS\\n(severity gap ≥ 2 levels)"     color="#ef4444"]
+
+    // ── Final output ──────────────────────────────────────────────
+    Output [label="Claude Sonnet — FEMA PDA brief\\nGeoJSON + CSV export\\nInteractive map"
+            fillcolor="#1e2a1e" color="#22c55e"]
+
+    // ── Edges ─────────────────────────────────────────────────────
+    DroneVideo -> Marengo -> Pegasus -> ClaudeGeo
+    SatTiles   -> PhaseB
+    FieldRep   -> ClaudeText
+    Parcels    -> GeoPan
+
+    ClaudeGeo  -> Fusion
+    PhaseB     -> Fusion
+    ClaudeText -> Fusion
+    GeoPan     -> Fusion
+
+    Fusion -> Validated
+    Fusion -> Unreported
+    Fusion -> Conflicts
+
+    Unreported -> Output
+}
+    """, use_container_width=True)
 
     st.divider()
 
@@ -764,8 +791,6 @@ with tab_arch:
 | **TwelveLabs Marengo 3.0** | `twelvelabs.marengo-embed-3-0-v1:0` | Async | 512-dim visual/audio/transcription embeddings per ~6s clip |
 | **TwelveLabs Pegasus 1.2** | `twelvelabs.pegasus-1-2-v1:0` | Sync | Structured damage JSON from full video |
 | **Claude Sonnet 4.6** | `us.anthropic.claude-sonnet-4-6` | Sync | Geo-location, satellite comparison, FEMA summary |
-
-**Zero personal API keys.** All inference stays inside the hackathon AWS account boundary.
     """)
 
 
