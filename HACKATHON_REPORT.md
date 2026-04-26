@@ -4,7 +4,7 @@
 **Date:** April 26, 2026
 **Team:**
 * Ushasree Mindala
-* Ajay Gowtham
+* Ajay Gautam
 * Dharan Kumar Kunati
 
 
