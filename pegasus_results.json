@@ -1,0 +1,117 @@
+{
+  "hurricane_milton": [
+    {
+      "structures_visible": 10,
+      "damage_severity": "severe",
+      "damage_indicators": [
+        "roof_loss",
+        "wall_collapse",
+        "flooding",
+        "debris_field"
+      ],
+      "infrastructure": {
+        "roads": "blocked",
+        "utilities": "damaged"
+      },
+      "vegetation": "destroyed",
+      "confidence": 0.95,
+      "description": "The video shows severe damage to structures and infrastructure in coastal Florida, with widespread flooding, debris, and collapsed buildings following Hurricane Ian.",
+      "source_key": "hurricane_milton/zJyDF8_NHcs.mp4"
+    }
+  ],
+  "palisades_wildfire": [
+    {
+      "structures_visible": 500,
+      "damage_severity": "destroyed",
+      "damage_indicators": [
+        "fire_damage",
+        "burnt_structure",
+        "debris_field",
+        "ash_field"
+      ],
+      "infrastructure": {
+        "roads": "passable",
+        "utilities": "damaged"
+      },
+      "vegetation": "destroyed",
+      "confidence": 0.95,
+      "description": "The video depicts a neighborhood in Pacific Palisades severely devastated by wildfire, with hundreds of homes and businesses burnt to the ground, leaving behind extensive debris and ash fields.",
+      "source_key": "palisades/palisades_fox11_destroyed.mp4"
+    },
+    {
+      "structures_visible": 100,
+      "damage_severity": "severe",
+      "damage_indicators": [
+        "fire_damage",
+        "debris_field",
+        "burnt_structure",
+        "ash_field"
+      ],
+      "infrastructure": {
+        "roads": "passable",
+        "utilities": "damaged"
+      },
+      "vegetation": "scorched",
+      "confidence": 0.95,
+      "description": "The video showcases extensive fire damage across Pacific Palisades, with numerous burnt structures, debris fields, and scorched vegetation, while roads remain passable but utilities are damaged.",
+      "source_key": "palisades/palisades_burn_zone_devastation.mp4"
+    },
+    {
+      "structures_visible": 10,
+      "damage_severity": "destroyed",
+      "damage_indicators": [
+        "roof_loss",
+        "wall_collapse",
+        "debris_field",
+        "burnt_structure",
+        "ash_field"
+      ],
+      "infrastructure": {
+        "roads": "passable",
+        "utilities": "unknown"
+      },
+      "vegetation": "scorched",
+      "confidence": 0.9,
+      "description": "The video shows extensive fire damage to structures along a hillside and beachfront, with many buildings completely destroyed and debris scattered across the area.",
+      "source_key": "palisades/palisades_drone_devastation.mp4"
+    },
+    {
+      "structures_visible": 10,
+      "damage_severity": "severe",
+      "damage_indicators": [
+        "fire_damage",
+        "debris_field",
+        "foundation_failure",
+        "burnt_structure",
+        "ash_field"
+      ],
+      "infrastructure": {
+        "roads": "passable",
+        "utilities": "unknown"
+      },
+      "vegetation": "scorched",
+      "confidence": 0.9,
+      "description": "The video showcases severe damage to coastal structures and vegetation from wildfires, with ongoing recovery efforts visible.",
+      "source_key": "palisades/palisades_malibu_desolation.mp4"
+    },
+    {
+      "structures_visible": 10,
+      "damage_severity": "destroyed",
+      "damage_indicators": [
+        "roof_loss",
+        "wall_collapse",
+        "debris_field",
+        "burnt_structure",
+        "ash_field"
+      ],
+      "infrastructure": {
+        "roads": "passable",
+        "utilities": "unknown"
+      },
+      "vegetation": "scorched",
+      "confidence": 0.9,
+      "description": "The video shows extensive fire damage to structures along the Malibu coastline, with many buildings completely destroyed and debris scattered across the area.",
+      "source_key": "palisades/palisades_malibu_drone.mp4"
+    }
+  ]
+}

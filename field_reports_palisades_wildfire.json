@@ -1,0 +1,181 @@
+[
+  {
+    "source": "Pacific Palisades Volunteer Fire Department",
+    "date": "2025-01-07",
+    "entries": [
+      {
+        "address": "W Sunset Blvd at Temescal Canyon Rd, Pacific Palisades, CA 90272",
+        "severity": "minor",
+        "notes": "Ground-level inspection showed some exterior smoke damage and broken windows. Structure appears largely intact. Team was unable to access upper floors due to road conditions. Assessment may be incomplete given access constraints.",
+        "lat": 34.0431,
+        "lon": -118.527
+      },
+      {
+        "address": "1482 Sunset Mesa Drive, Pacific Palisades, CA 90272",
+        "severity": "destroyed",
+        "notes": "Complete structural loss. Roof collapsed, all four walls down. Active embers present. Utility meter destroyed. Do not enter.",
+        "lat": 34.0521,
+        "lon": -118.6612
+      },
+      {
+        "address": "1755 Amalfi Drive, Pacific Palisades, CA 90272",
+        "severity": "moderate",
+        "notes": "Exterior siding scorched on south and west faces. Deck partially burned. Windows intact. Roof appears undamaged from street. Interior not accessed.",
+        "lat": 34.0487,
+        "lon": -118.6578
+      },
+      {
+        "address": "933 Chautauqua Boulevard, Pacific Palisades, CA 90272",
+        "severity": "severe",
+        "notes": "Garage fully burned through. Fire spread to attached dwelling \u2014 front half of structure gutted. Rear rooms may be salvageable. Gas shutoff confirmed.",
+        "lat": 34.0534,
+        "lon": -118.6543
+      },
+      {
+        "address": "2210 Bowdoin Street, Pacific Palisades, CA 90272",
+        "severity": "minor",
+        "notes": "Fence line burned. Small shed in backyard destroyed. Main dwelling shows no visible fire damage. Landscaping lost on north side.",
+        "lat": 34.0502,
+        "lon": -118.6489
+      },
+      {
+        "address": "1601 Marquez Avenue, Pacific Palisades, CA 90272",
+        "severity": "destroyed",
+        "notes": "Full burn. Concrete foundation and chimney stack only remaining. Vehicle in driveway also destroyed. Neighboring trees still smoldering.",
+        "lat": 34.0468,
+        "lon": -118.6601
+      },
+      {
+        "address": "744 Palisades Drive, Pacific Palisades, CA 90272",
+        "severity": "none",
+        "notes": "No visible damage. Structure appears intact. Occupants had pre-wetted roofline \u2014 possible factor. Area cleared, no active fire threat at time of assessment.",
+        "lat": 34.0555,
+        "lon": -118.6527
+      },
+      {
+        "address": "1388 Kagawa Street, Pacific Palisades, CA 90272",
+        "severity": "moderate",
+        "notes": "East-facing exterior wall has moderate char. Eave venting shows soot intrusion. Windows cracked but not blown. Team recommends full interior inspection before re-entry.",
+        "lat": 34.0511,
+        "lon": -118.6558
+      }
+    ]
+  },
+  {
+    "source": "Los Angeles County Building and Safety Inspection Team",
+    "date": "2025-01-07",
+    "entries": [
+      {
+        "address": "1482 Sunset Mesa Drive, Pacific Palisades, CA 90272",
+        "severity": "destroyed",
+        "notes": "Total loss confirmed. Foundation cracked from heat stress. Red-tagged. Asbestos hazard possible \u2014 built circa 1962. Hazmat referral submitted.",
+        "lat": 34.0521,
+        "lon": -118.6612
+      },
+      {
+        "address": "1755 Amalfi Drive, Pacific Palisades, CA 90272",
+        "severity": "severe",
+        "notes": "Inspector accessed interior via owner consent. Attic fully compromised by fire intrusion through vents. Load-bearing wall on west side shows structural failure. Red-tagged. NOT safe for occupancy. Severity upgraded from initial drive-by estimate.",
+        "lat": 34.0487,
+        "lon": -118.6578
+      },
+      {
+        "address": "2847 Valdez Drive, Pacific Palisades, CA 90272",
+        "severity": "moderate",
+        "notes": "Single-story ranch home. Rear portion of structure shows roof sag and exterior burn marks. Windows failed on south side. Yellow-tagged pending structural engineer review.",
+        "lat": 34.0476,
+        "lon": -118.6634
+      },
+      {
+        "address": "933 Chautauqua Boulevard, Pacific Palisades, CA 90272",
+        "severity": "severe",
+        "notes": "Confirmed severe damage. Attached garage and front living area destroyed. Rear bedroom wing structurally questionable. Red-tagged. Owner notified by door notice.",
+        "lat": 34.0534,
+        "lon": -118.6543
+      },
+      {
+        "address": "1601 Marquez Avenue, Pacific Palisades, CA 90272",
+        "severity": "destroyed",
+        "notes": "Total loss. Only chimney and partial foundation wall standing. Debris field extends onto sidewalk \u2014 public hazard flagged. Demolition order initiated.",
+        "lat": 34.0468,
+        "lon": -118.6601
+      },
+      {
+        "address": "519 Pampas Ricas Boulevard, Pacific Palisades, CA 90272",
+        "severity": "minor",
+        "notes": "Exterior stucco discolored from heat and smoke. No structural compromise identified. Green-tagged. Recommend smoke remediation inside before occupancy.",
+        "lat": 34.0543,
+        "lon": -118.6496
+      },
+      {
+        "address": "1388 Kagawa Street, Pacific Palisades, CA 90272",
+        "severity": "moderate",
+        "notes": "Char damage on east wall confirmed. Roof decking intact. No interior access granted by occupant. Yellow-tagged. Follow-up inspection required within 72 hours.",
+        "lat": 34.0511,
+        "lon": -118.6558
+      },
+      {
+        "address": "2103 Haverford Avenue, Pacific Palisades, CA 90272",
+        "severity": "destroyed",
+        "notes": "Two-story residence fully burned. Second floor pancaked onto first. Propane tank in rear yard appears to have BLEVE'd \u2014 scorch radius 40 ft. Red-tagged, perimeter tape placed.",
+        "lat": 34.0494,
+        "lon": -118.6519
+      }
+    ]
+  },
+  {
+    "source": "American Red Cross Disaster Assessment Team \u2014 Los Angeles Chapter",
+    "date": "2025-01-07",
+    "entries": [
+      {
+        "address": "2210 Bowdoin Street, Pacific Palisades, CA 90272",
+        "severity": "minor",
+        "notes": "Residents sheltering in place. Backyard shed destroyed, fence lost. Home habitable. Family of 4 declined shelter referral. Provided emergency kit and contact card.",
+        "lat": 34.0502,
+        "lon": -118.6489
+      },
+      {
+        "address": "744 Palisades Drive, Pacific Palisades, CA 90272",
+        "severity": "none",
+        "notes": "Occupants present and safe. No damage to dwelling. Residents assisting neighbors. Offered mental health resources and supply drop-off.",
+        "lat": 34.0555,
+        "lon": -118.6527
+      },
+      {
+        "address": "2847 Valdez Drive, Pacific Palisades, CA 90272",
+        "severity": "moderate",
+        "notes": "Elderly resident (82F) found on scene. Rear bedroom area has burned-out roof section. Resident displaced. Transported to Palisades Recreation Center shelter. Pets (2 dogs) accommodated.",
+        "lat": 34.0476,
+        "lon": -118.6634
+      },
+      {
+        "address": "519 Pampas Ricas Boulevard, Pacific Palisades, CA 90272",
+        "severity": "minor",
+        "notes": "Couple evacuated voluntarily. Returned to assess. Exterior smoke damage only. Home considered habitable. Registered family in disaster relief database.",
+        "lat": 34.0543,
+        "lon": -118.6496
+      },
+      {
+        "address": "2103 Haverford Avenue, Pacific Palisades, CA 90272",
+        "severity": "destroyed",
+        "notes": "No occupants located on scene. Neighbors report family of 3 evacuated night prior. Structure fully destroyed. Address flagged for welfare check follow-up. Personal property unrecoverable.",
+        "lat": 34.0494,
+        "lon": -118.6519
+      },
+      {
+        "address": "1388 Kagawa Street, Pacific Palisades, CA 90272",
+        "severity": "moderate",
+        "notes": "Resident present, mildly distressed. East wall charred. Resident chose to remain \u2014 signed acknowledgment waiver. Provided N95 masks and air quality advisory.",
+        "lat": 34.0511,
+        "lon": -118.6558
+      },
+      {
+        "address": "17 Albright Street, Pacific Palisades, CA 90272",
+        "severity": "severe",
+        "notes": "Resident reported structure as severely damaged with roof failure and broken gas line. Team located address marker but building could not be confirmed at this parcel \u2014 possible address discrepancy or demolition predating fire. Flagged for GIS verification. No occupants found.",
+        "lat": 34.0531,
+        "lon": -118.6588
+      }
+    ]
+  }
+]

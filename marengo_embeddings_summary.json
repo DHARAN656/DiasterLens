@@ -1,0 +1,68 @@
+{
+  "event_id": "hurricane_milton",
+  "total_segments": 183,
+  "embedding_dim": 512,
+  "scope_counts": {
+    "asset/audio": 1,
+    "asset/visual": 1,
+    "asset/transcription": 1,
+    "clip/audio": 60,
+    "clip/visual": 60,
+    "clip/transcription": 60
+  },
+  "clip_visual_count": 60,
+  "video_duration_s": 395.75,
+  "clip_duration_avg_s": 6.6,
+  "sample_clips": [
+    {
+      "start": 0.0,
+      "end": 6.75,
+      "embedding_preview": [
+        0.006500244140625,
+        0.0693359375,
+        0.0517578125,
+        0.0380859375
+      ]
+    },
+    {
+      "start": 6.75,
+      "end": 13.5,
+      "embedding_preview": [
+        -0.009521484375,
+        0.0712890625,
+        0.050537109375,
+        0.04931640625
+      ]
+    },
+    {
+      "start": 13.5,
+      "end": 20.25,
+      "embedding_preview": [
+        -0.0010833740234375,
+        0.06494140625,
+        0.068359375,
+        0.045166015625
+      ]
+    },
+    {
+      "start": 20.25,
+      "end": 27.0,
+      "embedding_preview": [
+        0.0006866455078125,
+        0.06640625,
+        0.06591796875,
+        0.037109375
+      ]
+    },
+    {
+      "start": 27.0,
+      "end": 33.5,
+      "embedding_preview": [
+        0.0003108978271484375,
+        0.06103515625,
+        0.0732421875,
+        0.041015625
+      ]
+    }
+  ]
+}

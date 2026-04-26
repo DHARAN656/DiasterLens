@@ -1,0 +1,943 @@
+{
+  "hurricane_milton": [
+    {
+      "event_id": "hurricane_milton",
+      "lat": 27.3,
+      "lon": -82.1,
+      "confidence": 0.62,
+      "location_name": "Fort Myers Beach (Estero Island), Lee County, Florida - mid-island residential area",
+      "reasoning": {
+        "terrain": "Extremely flat coastal terrain with visible open water/bay in the background and what appears to be Gulf of Mexico or an intracoastal waterway. Mangrove vegetation visible near the water's edge. Palm trees scattered throughout. No elevation changes whatsoever. Matches Florida Gulf Coast barrier island terrain perfectly.",
+        "built_environment": "Mix of elevated stilt homes (flood-code construction), concrete block single-story structures, and what appear to be mobile/manufactured homes. Buildings are low-density, spread out with sand/dirt lots visible between structures. Several lots appear cleared or have missing structures suggesting storm surge damage. A prominent two-story elevated white building with shutters in the foreground appears to be a newer elevated structure. Color palette of homes includes pastels (blue, teal) typical of Florida coastal communities. Street layout appears irregular, not a strict grid.",
+        "distinctive_features": [
+          "Prominent two-story elevated white structure with shuttered windows in foreground center - appears institutional or residential elevated construction",
+          "Open water visible in background suggesting narrow barrier island geography",
+          "Mangroves along waterfront",
+          "Mixed housing stock with several cleared/damaged lots indicating storm surge impact",
+          "Overcast post-storm sky",
+          "Channel or canal visible in middle distance",
+          "Colorful elevated stilt homes on right side matching Fort Myers Beach architectural style",
+          "Low-lying barrier island width suggests narrow island - consistent with Fort Myers Beach or similar",
+          "13 Kanal (Turkish channel) watermark - this channel covered Hurricane Milton extensively in Florida"
+        ],
+        "location_inference": "The combination of narrow barrier island visible from both sides, mix of stilt homes and concrete block structures, cleared storm-damaged lots, and post-hurricane damage pattern strongly suggests Fort Myers Beach (Estero Island). The elevated white building in foreground and the visible water on what appears to be both the bay and gulf sides of a narrow island is characteristic of Fort Myers Beach around the mid-island area near Estero Boulevard. However, note the AI assessment mentions Hurricane Ian which hit Fort Myers Beach in 2022, but the event context says Milton 2024. Fort Myers Beach suffered catastrophic damage in Ian and was still rebuilding during Milton. The cleared lots and mix of new elevated construction among older damaged structures is consistent with Fort Myers Beach post-Ian rebuilding seen during Milton."
+      },
+      "all_frame_results": [
+        {
+          "reasoning": {
+            "terrain": "Extremely flat coastal terrain with visible open water/bay in the background and what appears to be Gulf of Mexico or an intracoastal waterway. Mangrove vegetation visible near the water's edge. Palm trees scattered throughout. No elevation changes whatsoever. Matches Florida Gulf Coast barrier island terrain perfectly.",
+            "built_environment": "Mix of elevated stilt homes (flood-code construction), concrete block single-story structures, and what appear to be mobile/manufactured homes. Buildings are low-density, spread out with sand/dirt lots visible between structures. Several lots appear cleared or have missing structures suggesting storm surge damage. A prominent two-story elevated white building with shutters in the foreground appears to be a newer elevated structure. Color palette of homes includes pastels (blue, teal) typical of Florida coastal communities. Street layout appears irregular, not a strict grid.",
+            "distinctive_features": [
+              "Prominent two-story elevated white structure with shuttered windows in foreground center - appears institutional or residential elevated construction",
+              "Open water visible in background suggesting narrow barrier island geography",
+              "Mangroves along waterfront",
+              "Mixed housing stock with several cleared/damaged lots indicating storm surge impact",
+              "Overcast post-storm sky",
+              "Channel or canal visible in middle distance",
+              "Colorful elevated stilt homes on right side matching Fort Myers Beach architectural style",
+              "Low-lying barrier island width suggests narrow island - consistent with Fort Myers Beach or similar",
+              "13 Kanal (Turkish channel) watermark - this channel covered Hurricane Milton extensively in Florida"
+            ],
+            "location_inference": "The combination of narrow barrier island visible from both sides, mix of stilt homes and concrete block structures, cleared storm-damaged lots, and post-hurricane damage pattern strongly suggests Fort Myers Beach (Estero Island). The elevated white building in foreground and the visible water on what appears to be both the bay and gulf sides of a narrow island is characteristic of Fort Myers Beach around the mid-island area near Estero Boulevard. However, note the AI assessment mentions Hurricane Ian which hit Fort Myers Beach in 2022, but the event context says Milton 2024. Fort Myers Beach suffered catastrophic damage in Ian and was still rebuilding during Milton. The cleared lots and mix of new elevated construction among older damaged structures is consistent with Fort Myers Beach post-Ian rebuilding seen during Milton."
+          },
+          "candidates": [
+            {
+              "lat": 26.452,
+              "lon": -81.941,
+              "location_name": "Fort Myers Beach, Estero Island - mid-island area near Estero Blvd",
+              "confidence": 0.62,
+              "supporting_evidence": "Narrow barrier island visible with water on multiple sides, mix of elevated stilt construction and damaged/cleared lots, palm trees and mangroves, pastel-colored elevated homes matching Fort Myers Beach architectural character, overcast post-storm conditions"
+            },
+            {
+              "lat": 26.649,
+              "lon": -82.234,
+              "location_name": "Pine Island, Matlacha area",
+              "confidence": 0.15,
+              "supporting_evidence": "Similar low-density mixed housing with waterfront access, but less consistent with narrow barrier island appearance"
+            },
+            {
+              "lat": 27.032,
+              "lon": -82.457,
+              "location_name": "Englewood Beach / Manasota Key",
+              "confidence": 0.12,
+              "supporting_evidence": "Flat coastal barrier island with similar housing mix, but landmark features less distinctive"
+            }
+          ],
+          "best_estimate": {
+            "lat": 26.452,
+            "lon": -81.941,
+            "confidence": 0.62,
+            "location_name": "Fort Myers Beach (Estero Island), Lee County, Florida - mid-island residential area"
+          },
+          "timestamp_s": 19.783500000000004
+        },
+        {
+          "reasoning": {
+            "terrain": "Completely flat urban terrain fully inundated with floodwater to approximately 2-3 feet depth covering what appears to be a major commercial arterial road. Palm trees visible, consistent with coastal Florida. Sky is clear blue post-storm, matching Hurricane Milton aftermath on October 9-10, 2024.",
+            "built_environment": "Dense commercial strip development on both sides of a wide multi-lane road (likely 4-6 lanes). Strip malls, fast food/chain restaurants visible on right side (appears to be a Chili's or similar chain restaurant building with distinctive roof). Billboard signage visible center-left. Large parking lots now submerged. This is characteristic of a major US highway commercial corridor in Florida - consistent with US-41 (Tamiami Trail) or SR-60 type corridors.",
+            "distinctive_features": [
+              "Green highway directional sign visible on right side of road - partially submerged but readable shape",
+              "Large commercial billboard center-left with yellow/green coloring",
+              "Chain restaurant on far right with distinctive architecture (appears to be Chili's based on roof style)",
+              "Wide multi-lane commercial arterial - likely 4-6 lanes",
+              "Palm trees lining the corridor",
+              "Floodwater depth approximately 2-3 feet covering entire roadway",
+              "Channel 13 Kanal watermark - Turkish news channel covering Hurricane Milton",
+              "Vehicles partially submerged visible in distance",
+              "Flat coastal Florida commercial strip - no elevation changes",
+              "The billboard appears to say 'TARAH' or similar - possibly a local business name"
+            ],
+            "location_inference": "The footage from Channel 13 (Turkish TV) covering Hurricane Milton (October 9, 2024) shows a heavily flooded commercial corridor. The wide road, strip mall density, palm trees, and chain restaurants are consistent with major commercial corridors in the Tampa Bay / Sarasota area hit by Milton. The green directional highway sign and road width suggest US-41 (Tamiami Trail) in the Sarasota or North Port area, or possibly US-19 in the Pinellas/Pasco area. Milton made landfall near Siesta Key/Sarasota area. The commercial density and road width are most consistent with US-41 in the Sarasota area or alternatively SR-60/US-19 in the Tampa/Clearwater area. Given Milton's track and the severity shown, this appears to be in the Sarasota or Charlotte County area along US-41."
+          },
+          "candidates": [
+            {
+              "lat": 27.3364,
+              "lon": -82.5307,
+              "location_name": "US-41 (Tamiami Trail) commercial corridor, Sarasota, FL",
+              "confidence": 0.38,
+              "supporting_evidence": "Wide commercial arterial with strip malls, chain restaurants, palm trees, heavy flooding consistent with Milton landfall near Sarasota; US-41 is the primary commercial corridor in this area"
+            },
+            {
+              "lat": 27.9506,
+              "lon": -82.4572,
+              "location_name": "US-19 or SR-60 corridor, Clearwater/Tampa area, FL",
+              "confidence": 0.25,
+              "supporting_evidence": "Similar commercial strip density exists along US-19 in Clearwater/New Port Richey area which also experienced significant Milton surge flooding"
+            },
+            {
+              "lat": 26.9342,
+              "lon": -82.0526,
+              "location_name": "US-41 corridor, Port Charlotte/Punta Gorda, FL",
+              "confidence": 0.22,
+              "supporting_evidence": "Commercial strip on US-41 in Charlotte County shows similar characteristics; area experienced significant Milton flooding"
+            }
+          ],
+          "best_estimate": {
+            "lat": 27.3364,
+            "lon": -82.5307,
+            "confidence": 0.35,
+            "location_name": "US-41 (Tamiami Trail) commercial corridor, Sarasota, FL near Milton landfall zone"
+          },
+          "timestamp_s": 197.835
+        },
+        {
+          "reasoning": {
+            "terrain": "Flat Florida terrain with significant flooding across commercial parking lots. Retention pond/lake visible on western edge. Subtropical vegetation including palms in background. Completely flat, consistent with Gulf Coast Florida.",
+            "built_environment": "Large suburban commercial shopping complex with multiple big-box retail stores, large surface parking lots, standalone restaurant building in center. Green-branded large retail store visible on right side. Classic Florida commercial strip development along a major road corridor.",
+            "distinctive_features": [
+              "Large green-branded big-box retail store (right side, possibly Lowe's or Publix)",
+              "Standalone dark brick building in flooded center parking lot (restaurant)",
+              "Retention pond/lake on western edge merging with floodwater",
+              "Large flooded surface parking lot",
+              "Multi-building commercial retail strip",
+              "Waterway visible in upper left background",
+              "13 kanal news watermark (international coverage)"
+            ],
+            "location_inference": "Commercial retail corridor in Sarasota or Manatee County area affected by Hurricane Milton (October 2024). The scale and layout of the shopping center, combined with flooding consistent with Milton's rainfall and surge, suggests a major retail corridor near Sarasota, possibly near US-41 or University Parkway/Cattlemen Road area in Sarasota."
+          },
+          "candidates": [
+            {
+              "lat": 27.3845,
+              "lon": -82.5321,
+              "location_name": "Sarasota commercial corridor near US-41 and University Parkway",
+              "confidence": 0.32,
+              "supporting_evidence": "Large flooded commercial retail strip with big-box stores, flat terrain, retention pond, consistent with Sarasota area flooding from Hurricane Milton"
+            },
+            {
+              "lat": 27.9472,
+              "lon": -82.459,
+              "location_name": "Brandon/Tampa commercial strip near Brandon Town Center",
+              "confidence": 0.28,
+              "supporting_evidence": "Large retail complex with flooding, flat terrain, matches Tampa Bay area commercial corridors affected by Milton"
+            },
+            {
+              "lat": 27.4989,
+              "lon": -82.5748,
+              "location_name": "Bradenton commercial area near US-41",
+              "confidence": 0.22,
+              "supporting_evidence": "Flooded commercial parking lots, proximity to water body, flat Manatee County terrain"
+            }
+          ],
+          "best_estimate": {
+            "lat": 27.3845,
+            "lon": -82.5321,
+            "confidence": 0.32,
+            "location_name": "Sarasota commercial retail corridor, possibly near US-41/University Parkway area, Sarasota FL"
+          },
+          "timestamp_s": 375.8865
+        }
+      ],
+      "source_video": "videos/zJyDF8_NHcs.mp4"
+    }
+  ],
+  "palisades_wildfire": [
+    {
+      "event_id": "palisades_wildfire",
+      "lat": 34.0431,
+      "lon": -118.5267,
+      "confidence": 0.95,
+      "location_name": "Pacific Palisades \u2014 W Sunset Blvd at Temescal Canyon Rd, lower Palisades neighborhood",
+      "reasoning": {
+        "terrain": "Aerial view showing a densely developed urban/suburban hillside area with severe wildfire destruction. The terrain appears to be a relatively flat to gently sloping neighborhood grid, consistent with the terraced Pacific Palisades area above PCH. Vegetation is completely burnt, leaving ash and debris fields across the landscape.",
+        "built_environment": "Dense residential and some commercial structures, nearly all destroyed by fire. The street layout shows a grid pattern with curved roads typical of Pacific Palisades. Multiple lots visible with only foundations and debris remaining. One multi-story concrete/masonry building (possibly commercial or apartment) appears to have survived or partially survived at the top-left of frame.",
+        "distinctive_features": [
+          "Street overlay labels clearly showing: Temescal Canyon Rd, W Sunset Blvd (multiple instances), Haverford Ave, Albright St",
+          "Temescal Canyon Road running east-west across the upper portion of frame",
+          "W Sunset Blvd running diagonally through the middle of the frame",
+          "Haverford Ave visible as a cross street",
+          "Albright St on the right side of frame",
+          "The intersection of Temescal Canyon Rd and W Sunset Blvd is clearly shown",
+          "Fox Local news chyron confirming Palisades Fire, 17,234 acres, 0% contained",
+          "Complete destruction of residential neighborhood \u2014 ash fields, exposed foundations",
+          "Multi-story surviving structure at upper left near Temescal Canyon Rd"
+        ],
+        "location_inference": "The labeled streets definitively place this at the intersection of Temescal Canyon Road and W Sunset Boulevard in Pacific Palisades. Temescal Canyon Rd runs north from PCH up into the Palisades, and Sunset Blvd terminates near PCH at Temescal Canyon. The view is centered approximately at the Sunset Blvd / Temescal Canyon Rd intersection area in Pacific Palisades, roughly between PCH and the main Palisades residential grid."
+      },
+      "all_frame_results": [
+        {
+          "reasoning": {
+            "terrain": "Aerial view of a densely developed hillside residential neighborhood showing extensive wildfire burn damage. The terrain is clearly sloped/terraced hillside typical of the Santa Monica Mountains coastal edge. The entire visible area shows burnt brown/grey ash and destroyed structures across a large residential grid. No water bodies visible in this frame but the street overlay confirms Pacific Palisades geography.",
+            "built_environment": "Dense residential grid with streets running in a roughly parallel pattern across terraced hillsides. The neighborhood shows upscale California residential development now completely destroyed by fire - visible as uniform ash-grey debris fields where homes once stood. The street pattern shows classic Pacific Palisades residential grid layout above Sunset Boulevard.",
+            "distinctive_features": [
+              "W Sunset Blvd visible running diagonally across the frame (multiple labels)",
+              "Alma Real Dr labeled prominently on left side",
+              "Toyopa Dr visible",
+              "Fiske St labeled",
+              "Galloway St labeled",
+              "Hartzell St labeled",
+              "Iliff St labeled",
+              "Kagawa St labeled",
+              "Drummond St labeled",
+              "Embury St labeled",
+              "Albright St labeled",
+              "Radcliffe Ave labeled at top",
+              "Swarthmore Ave labeled",
+              "Haverford Ave labeled",
+              "Via de la Paz labeled",
+              "Chautauqua Blvd visible on right",
+              "Rivas Canyon area visible lower right",
+              "Greentree Rd visible at bottom",
+              "Fox News breaking news chyron: 'Palisades Fire Burns 17,234 Acres, 0% Contained'",
+              "Complete destruction pattern - ash fields, no standing structures visible"
+            ],
+            "location_inference": "This is clearly the Alphabet Streets / upper Pacific Palisades neighborhood. The visible streets (Galloway, Hartzell, Iliff, Kagawa - which are the 'alphabet streets' of Pacific Palisades running parallel), combined with Alma Real Dr, Toyopa Dr, and W Sunset Blvd, precisely identify this as the residential grid of Pacific Palisades roughly between Sunset Blvd and the ridgeline above. The center of the aerial view appears to be around the Galloway/Hartzell St area near Sunset Blvd in Pacific Palisades, approximately at the Alphabet Streets neighborhood which was among the most heavily devastated zones."
+          },
+          "candidates": [
+            {
+              "lat": 34.0485,
+              "lon": -118.5285,
+              "location_name": "Pacific Palisades Alphabet Streets - Galloway/Hartzell area near W Sunset Blvd",
+              "confidence": 0.92,
+              "supporting_evidence": "Multiple street names precisely match Pacific Palisades residential grid: Galloway St, Hartzell St, Iliff St, Kagawa St (alphabet streets), Alma Real Dr, Toyopa Dr, W Sunset Blvd, Chautauqua Blvd - all confirmed Pacific Palisades streets in the correct spatial relationship visible in the aerial overlay"
+            }
+          ],
+          "best_estimate": {
+            "lat": 34.0485,
+            "lon": -118.5285,
+            "confidence": 0.92,
+            "location_name": "Pacific Palisades Alphabet Streets neighborhood, near Galloway St & W Sunset Blvd, Pacific Palisades CA"
+          },
+          "timestamp_s": 25.0765
+        },
+        {
+          "reasoning": {
+            "terrain": "Aerial view showing a densely developed urban/suburban hillside area with severe wildfire destruction. The terrain appears to be a relatively flat to gently sloping neighborhood grid, consistent with the terraced Pacific Palisades area above PCH. Vegetation is completely burnt, leaving ash and debris fields across the landscape.",
+            "built_environment": "Dense residential and some commercial structures, nearly all destroyed by fire. The street layout shows a grid pattern with curved roads typical of Pacific Palisades. Multiple lots visible with only foundations and debris remaining. One multi-story concrete/masonry building (possibly commercial or apartment) appears to have survived or partially survived at the top-left of frame.",
+            "distinctive_features": [
+              "Street overlay labels clearly showing: Temescal Canyon Rd, W Sunset Blvd (multiple instances), Haverford Ave, Albright St",
+              "Temescal Canyon Road running east-west across the upper portion of frame",
+              "W Sunset Blvd running diagonally through the middle of the frame",
+              "Haverford Ave visible as a cross street",
+              "Albright St on the right side of frame",
+              "The intersection of Temescal Canyon Rd and W Sunset Blvd is clearly shown",
+              "Fox Local news chyron confirming Palisades Fire, 17,234 acres, 0% contained",
+              "Complete destruction of residential neighborhood \u2014 ash fields, exposed foundations",
+              "Multi-story surviving structure at upper left near Temescal Canyon Rd"
+            ],
+            "location_inference": "The labeled streets definitively place this at the intersection of Temescal Canyon Road and W Sunset Boulevard in Pacific Palisades. Temescal Canyon Rd runs north from PCH up into the Palisades, and Sunset Blvd terminates near PCH at Temescal Canyon. The view is centered approximately at the Sunset Blvd / Temescal Canyon Rd intersection area in Pacific Palisades, roughly between PCH and the main Palisades residential grid."
+          },
+          "candidates": [
+            {
+              "lat": 34.0431,
+              "lon": -118.5267,
+              "location_name": "Pacific Palisades \u2014 W Sunset Blvd & Temescal Canyon Rd intersection",
+              "confidence": 0.95,
+              "supporting_evidence": "On-screen street label overlays explicitly name Temescal Canyon Rd, W Sunset Blvd, Haverford Ave, and Albright St \u2014 all verified streets in Pacific Palisades near the PCH/Sunset terminus. The burnt residential grid pattern matches the lower Palisades neighborhood."
+            }
+          ],
+          "best_estimate": {
+            "lat": 34.0431,
+            "lon": -118.5267,
+            "confidence": 0.95,
+            "location_name": "Pacific Palisades \u2014 W Sunset Blvd at Temescal Canyon Rd, lower Palisades neighborhood"
+          },
+          "timestamp_s": 250.765
+        },
+        {
+          "reasoning": {
+            "terrain": "Dense residential hillside terrain with grid-pattern streets on terraced slopes. The aerial view shows a neighborhood that has been largely devastated by fire - visible as dark brown/black burnt areas with minimal remaining vegetation. Terrain is gently sloping, consistent with the lower Pacific Palisades residential grid above PCH.",
+            "built_environment": "Dense grid of residential streets with upscale homes on relatively uniform lots. The street overlay shows a classic Pacific Palisades grid neighborhood layout. Buildings appear as burnt foundations and debris fields from fire damage. The density and lot sizes are consistent with the established Palisades residential neighborhood.",
+            "distinctive_features": [
+              "Street name overlays clearly identify: Swarthmore Ave, Alma Real Dr, W Sunset Blvd, Via de la Paz, Monument St, Embury St, Fiske St, Galloway St, Hartzell St, Iliff St, Kagawa St, Bashford St, Chautauqua Blvd, Carey St, Drummond St, McKendree Ave, Temescal Canyon Rd visible at top",
+              "Chautauqua Blvd visible as a major diagonal street running through the neighborhood",
+              "W Sunset Blvd visible cutting through the area",
+              "Temescal Canyon Rd visible at top of frame",
+              "Breaking news chyron confirms: Palisades Fire, 17,234 acres, 0% contained",
+              "FOX 11 broadcast with timestamp 9:58 AM",
+              "Extensive fire damage pattern visible - burnt structures throughout",
+              "Grid street pattern characteristic of lower Pacific Palisades residential area"
+            ],
+            "location_inference": "This is unambiguously the lower Pacific Palisades residential neighborhood, specifically the area bounded by Temescal Canyon Rd to the north, Chautauqua Blvd to the east, W Sunset Blvd running through the middle, and streets like Swarthmore Ave, Fiske, Galloway, Hartzell, Iliff, Kagawa in the grid. The center of the visible area appears to be around Galloway St / Hartzell St intersection zone, which places this near the heart of the Palisades residential grid just north of where Sunset meets PCH area. Chautauqua Blvd runs diagonally as a key reference."
+          },
+          "candidates": [
+            {
+              "lat": 34.0465,
+              "lon": -118.529,
+              "location_name": "Pacific Palisades residential grid - Galloway/Hartzell St area near Swarthmore Ave",
+              "confidence": 0.95,
+              "supporting_evidence": "Multiple street names are explicitly visible in the map overlay: Swarthmore Ave, Chautauqua Blvd, W Sunset Blvd, Fiske St, Galloway St, Hartzell St, Iliff St, Kagawa St, Temescal Canyon Rd - all precisely matching the Pacific Palisades street grid. Center of frame aligns with approximately Galloway/Hartzell area."
+            }
+          ],
+          "best_estimate": {
+            "lat": 34.0465,
+            "lon": -118.529,
+            "confidence": 0.95,
+            "location_name": "Pacific Palisades residential neighborhood - Galloway St / Hartzell St grid, near Swarthmore Ave and Chautauqua Blvd"
+          },
+          "timestamp_s": 476.45349999999996
+        }
+      ],
+      "source_video": "videos/EGDBrlvHruw_merged.mp4"
+    },
+    {
+      "event_id": "palisades_wildfire",
+      "lat": 34.042,
+      "lon": -118.532,
+      "confidence": 0.72,
+      "location_name": "Pacific Palisades core residential grid (Alphabet Streets area), Pacific Palisades, CA",
+      "reasoning": {
+        "terrain": "Relatively flat to gently terraced coastal residential neighborhood visible from drone altitude. Pacific Ocean clearly visible in the background (southwest), confirming coastal Pacific Palisades location. The terrain is the flatter, grid-street portion of Pacific Palisades rather than the steep canyon hillsides. This matches the lower Palisades residential grid area near Sunset Boulevard.",
+        "built_environment": "Dense residential grid with uniform lot sizes, typical of the mid-century residential blocks of Pacific Palisades. Streets run in a clear grid pattern visible from above. Virtually all structures are reduced to foundations and ash fields \u2014 bare concrete slabs, occasional standing chimneys, scorched lot outlines. The block density and lot size suggest the interior residential neighborhood streets (not beachfront or hillside canyon lots). The scale of destruction is total across hundreds of lots, consistent with the Palisades fire's documented path through the neighborhood core.",
+        "distinctive_features": [
+          "Pacific Ocean visible on horizon to southwest/west",
+          "Grid street pattern with multiple parallel and perpendicular streets visible",
+          "Complete structural destruction \u2014 only foundations/slabs remain across vast area",
+          "Scattered surviving trees (palms and ornamentals) amid total building loss",
+          "Drone altitude suggests mid-neighborhood looking toward coast",
+          "Building density and lot size consistent with Alphabet Streets / Marquez area of Pacific Palisades",
+          "A few intact structures visible near coastline in background confirming proximity to PCH zone",
+          "Title card confirms Pacific Palisades location"
+        ],
+        "location_inference": "The view appears to be centered over the residential grid of Pacific Palisades, likely the area around the Alphabet Streets neighborhood (streets named alphabetically: Amalfi, Bienveneda, Capri, etc.) or the Sunset Mesa / Marquez Knolls area. The camera appears to be looking roughly southwest toward the ocean. The flat grid pattern and total devastation are consistent with the core residential blocks between Sunset Boulevard and PCH, approximately near the intersection zones around Swarthmore Ave or Antioch Street area of lower Pacific Palisades."
+      },
+      "all_frame_results": [
+        {
+          "reasoning": {
+            "terrain": "Relatively flat to gently terraced coastal residential neighborhood visible from drone altitude. Pacific Ocean clearly visible in the background (southwest), confirming coastal Pacific Palisades location. The terrain is the flatter, grid-street portion of Pacific Palisades rather than the steep canyon hillsides. This matches the lower Palisades residential grid area near Sunset Boulevard.",
+            "built_environment": "Dense residential grid with uniform lot sizes, typical of the mid-century residential blocks of Pacific Palisades. Streets run in a clear grid pattern visible from above. Virtually all structures are reduced to foundations and ash fields \u2014 bare concrete slabs, occasional standing chimneys, scorched lot outlines. The block density and lot size suggest the interior residential neighborhood streets (not beachfront or hillside canyon lots). The scale of destruction is total across hundreds of lots, consistent with the Palisades fire's documented path through the neighborhood core.",
+            "distinctive_features": [
+              "Pacific Ocean visible on horizon to southwest/west",
+              "Grid street pattern with multiple parallel and perpendicular streets visible",
+              "Complete structural destruction \u2014 only foundations/slabs remain across vast area",
+              "Scattered surviving trees (palms and ornamentals) amid total building loss",
+              "Drone altitude suggests mid-neighborhood looking toward coast",
+              "Building density and lot size consistent with Alphabet Streets / Marquez area of Pacific Palisades",
+              "A few intact structures visible near coastline in background confirming proximity to PCH zone",
+              "Title card confirms Pacific Palisades location"
+            ],
+            "location_inference": "The view appears to be centered over the residential grid of Pacific Palisades, likely the area around the Alphabet Streets neighborhood (streets named alphabetically: Amalfi, Bienveneda, Capri, etc.) or the Sunset Mesa / Marquez Knolls area. The camera appears to be looking roughly southwest toward the ocean. The flat grid pattern and total devastation are consistent with the core residential blocks between Sunset Boulevard and PCH, approximately near the intersection zones around Swarthmore Ave or Antioch Street area of lower Pacific Palisades."
+          },
+          "candidates": [
+            {
+              "lat": 34.042,
+              "lon": -118.532,
+              "location_name": "Pacific Palisades Alphabet Streets residential grid, near Swarthmore Ave",
+              "confidence": 0.72,
+              "supporting_evidence": "Grid street pattern, total fire devastation across hundreds of lots, Pacific Ocean visible to southwest, building density matches this mid-Palisades residential zone"
+            },
+            {
+              "lat": 34.038,
+              "lon": -118.529,
+              "location_name": "Pacific Palisades lower residential area near Sunset/PCH junction",
+              "confidence": 0.18,
+              "supporting_evidence": "Ocean proximity and flat terrain could place this slightly further south toward PCH corridor"
+            }
+          ],
+          "best_estimate": {
+            "lat": 34.042,
+            "lon": -118.532,
+            "confidence": 0.72,
+            "location_name": "Pacific Palisades core residential grid (Alphabet Streets area), Pacific Palisades, CA"
+          },
+          "timestamp_s": 14.438
+        },
+        {
+          "reasoning": {
+            "terrain": "Coastal hillside terrain with steep slope descending toward the Pacific Ocean. The ocean is clearly visible in the background (blue-grey water). A hillside/bluff is visible on the left (west) side of the frame. The terrain drops from elevated ground toward a flat coastal strip where homes sat directly adjacent to a beach. This matches the Pacific Palisades/Malibu coastal edge perfectly.",
+            "built_environment": "Dense residential neighborhood of beachfront/near-beach homes now reduced to ash foundations and debris fields. A two-lane road divides the neighborhood from the beachfront strip. The lot sizes appear medium-density, consistent with the Malibu Road or PCH beachfront colony areas. The grid-like foundation outlines suggest rows of beachfront homes directly on or very near the sand. Palm trees and deciduous trees (now burnt skeletons) line what appears to be PCH.",
+            "distinctive_features": [
+              "Pacific Ocean visible in background confirming coastal location",
+              "Two distinct rows of destroyed homes \u2014 one row directly beachfront, one row inland of a road (PCH)",
+              "Burnt palm trees lining what appears to be Pacific Coast Highway",
+              "Steep vegetated hillside/bluff on the left (west/northwest)",
+              "Wide sandy beach visible behind the front row of destroyed homes",
+              "No pier visible, ruling out Malibu Pier vicinity",
+              "Caption text confirms: 'Beachfront homes along the Pacific Coast Highway are burnt to the ground'",
+              "The hillside bluff on the left is consistent with the Point Dume or Malibu Colony area where bluffs meet PCH",
+              "Drone footage looking roughly northeast toward hillside with ocean to south/southwest",
+              "Density and lot configuration most consistent with Malibu Colony / Carbon Beach area"
+            ],
+            "location_inference": "The combination of beachfront homes directly on the sand with PCH running behind them, the bluff on the left side of frame, and the wide beach visible strongly suggests this is the Malibu Colony or Carbon Beach area along PCH. The hillside bluff visible on the left is consistent with the rocky promontory near Malibu Colony. Given the fire damage pattern from the Palisades Fire spreading northwest, and the beachfront colony layout, this most likely corresponds to the Malibu Colony / Carbon Beach stretch of PCH near approximately 26000-27000 block of PCH in Malibu."
+          },
+          "candidates": [
+            {
+              "lat": 34.0175,
+              "lon": -118.6785,
+              "location_name": "Carbon Beach / PCH beachfront near Pacific Palisades-Malibu border",
+              "confidence": 0.55,
+              "supporting_evidence": "Beachfront homes directly on sand with PCH behind, bluff on western edge, burnt palm trees lining highway, matches Palisades Fire burn zone along PCH"
+            },
+            {
+              "lat": 34.034,
+              "lon": -118.715,
+              "location_name": "Malibu Colony along PCH",
+              "confidence": 0.35,
+              "supporting_evidence": "Malibu Colony has identical beachfront home configuration with PCH running directly behind, and bluffs to the west; drone angle and ocean background consistent"
+            },
+            {
+              "lat": 34.0225,
+              "lon": -118.692,
+              "location_name": "Las Tunas Beach / PCH between Pacific Palisades and Malibu",
+              "confidence": 0.1,
+              "supporting_evidence": "Alternative stretch of PCH beachfront with similar home density"
+            }
+          ],
+          "best_estimate": {
+            "lat": 34.0175,
+            "lon": -118.6785,
+            "confidence": 0.55,
+            "location_name": "Carbon Beach along Pacific Coast Highway, Malibu (near Pacific Palisades fire boundary)"
+          },
+          "timestamp_s": 144.38
+        },
+        {
+          "reasoning": {
+            "terrain": "Low-elevation urban/commercial terrain with gentle hillside backdrop visible in background. Santa Monica Mountains foothills visible in distance. No ocean visible in this frame. Relatively flat commercial strip area. Vegetation is sparse and some trees show fire damage on the left side.",
+            "built_environment": "Mixed commercial and residential buildings visible. Left side shows severe fire destruction - collapsed/burnt structures, debris fields, charred trees, exposed foundations. Right side shows intact commercial buildings including what appears to be a strip mall or shopping center with a Costco or similar big-box retailer visible in background. Street-level commercial strip with parking areas. A church steeple/bell tower visible in the burnt area on the left. Green awning visible on a structure in the foreground-right suggesting a restaurant or market.",
+            "distinctive_features": [
+              "American flag on tall flagpole - prominent foreground element",
+              "Church or civic building with white bell tower/steeple in burnt zone on left",
+              "Large commercial/retail buildings on right side (intact) - appears to be a shopping center",
+              "Severe fire destruction on left/west side of frame",
+              "Mountains in background (Santa Monica Mountains foothills)",
+              "Green awning on commercial building in foreground",
+              "White pickup trucks visible on street",
+              "Strip mall configuration with parking lot on right",
+              "Appears to be a major commercial intersection or arterial road",
+              "Smoke or haze visible in background"
+            ],
+            "location_inference": "This appears to be the Palisades Village / Pacific Palisades commercial district along Sunset Boulevard or Via de la Paz. The combination of a church with bell tower in the burn zone, adjacent commercial strip that partially survived, the mountains backdrop, and the American flag on a tall pole strongly suggests this is the Pacific Palisades business district - specifically near Swarthmore Avenue and Sunset Boulevard intersection in Pacific Palisades. The Palisades Village shopping area had significant fire damage on one side while some structures remained. The church visible could be the Church in Ocean Park area or a Palisades community church. The big-box retail visible on the right could be the CVS/shopping area near Via de la Paz."
+          },
+          "candidates": [
+            {
+              "lat": 34.0437,
+              "lon": -118.5265,
+              "location_name": "Pacific Palisades Village commercial district near Sunset Blvd and Swarthmore Ave",
+              "confidence": 0.62,
+              "supporting_evidence": "Church bell tower in burnt zone, adjacent commercial strip with large retail, mountain backdrop, American flag on tall pole, mix of destroyed and intact structures consistent with the Palisades Village fire damage pattern"
+            },
+            {
+              "lat": 34.0418,
+              "lon": -118.5289,
+              "location_name": "Pacific Palisades along Via de la Paz near PCH intersection area",
+              "confidence": 0.25,
+              "supporting_evidence": "Commercial strip layout and fire damage pattern, though elevation and terrain suggest slightly inland from PCH"
+            }
+          ],
+          "best_estimate": {
+            "lat": 34.0437,
+            "lon": -118.5265,
+            "confidence": 0.62,
+            "location_name": "Pacific Palisades Village commercial district, near Sunset Blvd and Swarthmore Ave, Pacific Palisades CA"
+          },
+          "timestamp_s": 274.322
+        }
+      ],
+      "source_video": "videos/GEiwr0RXH8U_merged.mp4"
+    },
+    {
+      "event_id": "palisades_wildfire",
+      "lat": 34.034,
+      "lon": -118.685,
+      "confidence": 0.78,
+      "location_name": "Malibu Colony beachfront, Pacific Coast Highway, Malibu CA \u2014 destroyed by Palisades Fire Jan 2025",
+      "reasoning": {
+        "terrain": "Steep hillside rising immediately behind a narrow coastal strip, with the Pacific Ocean visible to the right (west). The hillside shows burnt chaparral vegetation consistent with the Palisades/Malibu area. The beach is wide and sandy with gentle surf. This matches the Santa Monica Mountains coastal edge perfectly \u2014 steep slopes dropping to PCH then beach.",
+        "built_environment": "Dense row of beachfront structures completely destroyed \u2014 only skeletal metal frames, concrete foundations, and ash/debris fields remain. The structures were built directly on or immediately behind the beach, side-by-side in a very tight linear arrangement. A road (PCH) runs between the hillside homes and the beachfront row. Hillside terraced homes above are partially visible and some still standing. This density and beachfront-on-sand configuration is characteristic of Malibu Colony or Carbon Beach.",
+        "distinctive_features": [
+          "Wide sandy beach with no structures on sand itself \u2014 homes were right at beach edge",
+          "Tight linear row of completely destroyed beachfront homes (only frames remain)",
+          "PCH visible as the road separating beach homes from hillside",
+          "Steep burnt hillside immediately inland with some surviving hillside structures",
+          "Aerial drone perspective looking northwest along coastline",
+          "Beach width and orientation consistent with Malibu Colony / Carbon Beach stretch",
+          "No pier visible \u2014 rules out Malibu Pier vicinity",
+          "Coastline curves slightly \u2014 consistent with the Malibu Colony to Point Dume area",
+          "Density of destroyed structures suggests a high-value beachfront colony"
+        ],
+        "location_inference": "This is almost certainly Malibu Colony (also known as the Malibu Road / Carbon Beach area) \u2014 the famous gated beachfront colony in Malibu where homes sit directly on the sand. The Palisades Fire burned through this area on January 7-8, 2025. The aerial view looking northwest along the coast, with the steep Santa Monica Mountains hillside on the left and the Pacific on the right, with that distinctive tight linear row of destroyed beachfront homes, strongly matches the Malibu Colony stretch around Malibu Road / PCH near Malibu Lagoon. The approximate coordinates for Malibu Colony center are around 34.034\u00b0N, 118.685\u00b0W."
+      },
+      "all_frame_results": [
+        {
+          "reasoning": {
+            "terrain": "Steep hillside terrain with dramatic slopes descending toward what appears to be a coastal area. The mountains in the background are dry, brown, and characteristic of the Santa Monica Mountains. Vegetation includes multiple palm trees (both fan palms and date palms), scorched chaparral, and ornamental landscaping. The terrain terracing is consistent with hillside residential development above PCH in the Malibu/Pacific Palisades corridor.",
+            "built_environment": "Upscale California coastal hillside homes \u2014 stucco construction, flat and low-pitched roofs, large glass facades, multi-story terraced structures. The surviving homes show modern luxury architecture with large decks/balconies and ocean-view orientation. Density is medium-high with homes packed on terraced lots. Several structures are completely destroyed showing only skeletal framing, foundation slabs, and ash fields. The mix of destroyed and surviving structures in close proximity is a hallmark of wildfire spotting behavior.",
+            "distinctive_features": [
+              "Steep hillside descending toward coast \u2014 matches Santa Monica Mountains coastal edge",
+              "Multiple mature Canary Island and Mexican fan palms \u2014 common in Malibu hillside landscaping",
+              "White/beige stucco luxury homes with large glass balconies surviving adjacent to total losses",
+              "Completely burnt foundations with only structural steel/concrete remaining",
+              "Blackened hillside with ash field in foreground",
+              "Mediterranean/Spanish tile roof elements visible on surviving structures",
+              "Canyon/drainage visible cutting through hillside",
+              "No ocean visible in frame but orientation and terrain suggest coastal proximity",
+              "Brown dry mountains visible in background matching Santa Monica Mountains appearance post-burn"
+            ],
+            "location_inference": "The combination of steep hillside terracing, dense upscale stucco homes, mature palms, and the specific pattern of fire destruction matches the Malibu hillside neighborhoods above PCH. The terrain topography \u2014 a hillside bowl with homes terraced into it, with mountains rising behind \u2014 strongly suggests the area around Las Virgenes/Malibu Canyon area or more likely the Carbon Mesa/Malibu Park neighborhood. However, given this is the Palisades Fire (not Eaton), and the coastal hillside character, this appears to be in the Castellammare/Pacific Palisades hillside area above PCH, possibly near the lower Malibu Road or Castellammare neighborhood. The specific bowl-shaped terrain with palms and luxury homes suggests Castellammare Mesa or the hillside above Malibu Colony, approximately between Topanga Canyon Blvd and Las Virgenes Road along PCH."
+          },
+          "candidates": [
+            {
+              "lat": 34.0375,
+              "lon": -118.565,
+              "location_name": "Castellammare hillside, Pacific Palisades above PCH",
+              "confidence": 0.42,
+              "supporting_evidence": "Steep terraced hillside with luxury stucco homes, palm trees, mountain backdrop matching Castellammare/Pacific Palisades area burned in Palisades Fire"
+            },
+            {
+              "lat": 34.042,
+              "lon": -118.695,
+              "location_name": "Malibu hillside neighborhood above PCH near Topanga Canyon",
+              "confidence": 0.35,
+              "supporting_evidence": "Bowl-shaped terrain, dense palm vegetation, upscale homes on terraced lots consistent with Malibu hillside communities"
+            },
+            {
+              "lat": 34.031,
+              "lon": -118.542,
+              "location_name": "Pacific Palisades lower hillside near Sunset/PCH",
+              "confidence": 0.23,
+              "supporting_evidence": "Terraced luxury residential hillside matching Palisades neighborhood character near PCH corridor"
+            }
+          ],
+          "best_estimate": {
+            "lat": 34.0375,
+            "lon": -118.565,
+            "confidence": 0.42,
+            "location_name": "Castellammare hillside, Pacific Palisades \u2014 above PCH near Malibu border"
+          },
+          "timestamp_s": 8.120000000000001
+        },
+        {
+          "reasoning": {
+            "terrain": "Aerial view showing a narrow sandy beach strip with Pacific Ocean waves to the right (west/southwest). Flat beach terrain transitioning immediately to a coastal highway and then destroyed structures. No significant elevation change visible in frame \u2014 this is the flat coastal shelf, not the hillside. The beach is wide and sandy, consistent with Malibu/PCH beachfront areas.",
+            "built_environment": "Extensive debris fields of completely destroyed beachfront structures \u2014 charred wood framing, collapsed walls, ash fields, exposed foundations right on the beach sand. One surviving or partially intact low-rise commercial/public building with a flat red-orange roof is visible near the highway. A 4-lane divided highway (PCH) runs parallel to the beach immediately inland of the destroyed structures. Vehicles including what appear to be emergency/utility trucks are visible on the highway.",
+            "distinctive_features": [
+              "Pacific Coast Highway (PCH/CA-1) \u2014 4-lane divided highway running parallel to beach",
+              "Wide sandy beach consistent with Malibu coastline",
+              "Beachfront structures completely destroyed \u2014 debris field directly on sand",
+              "One surviving low-profile flat-roofed building with reddish/orange roof near PCH (possibly a public restroom/lifeguard facility or small commercial structure)",
+              "Emergency vehicles and trucks on PCH",
+              "Aerial drone perspective looking roughly north-northwest along the coast",
+              "Destroyed structures are beach-adjacent homes/colonies \u2014 consistent with Carbon Beach or Malibu Colony",
+              "Complete destruction pattern with white ash and blackened debris",
+              "No pier visible in this frame",
+              "Hillside visible in upper left with additional destroyed structures"
+            ],
+            "location_inference": "The combination of beachfront homes completely destroyed directly on the sand, PCH immediately behind them, and the hillside with additional destruction in the background strongly suggests this is along the Malibu Colony or Carbon Beach / Paradise Cove stretch. However, the Palisades Fire primarily affected the Pacific Palisades area, and the PCH beachfront homes destroyed were in the stretch between Sunset Blvd and Malibu Colony. The surviving reddish flat-roofed structure may be a public facility like a beach parking lot restroom. Given the fire's burn area and the density/style of beachfront homes visible, this is most consistent with the PCH corridor near Castellammare/Pacific Palisades beachfront, roughly between Sunset Blvd intersection and Carbon Beach \u2014 approximately around the Marquez/PCH area or the stretch near Las Tunas/Topanga. The hillside destruction in the upper left is consistent with the Pacific Palisades bluffs. Best candidate: PCH beachfront near the Pacific Palisades/Malibu border, around the Carbon Beach area near Topanga Beach or just north of Sunset/PCH intersection."
+          },
+          "candidates": [
+            {
+              "lat": 34.0435,
+              "lon": -118.558,
+              "location_name": "PCH beachfront near Carbon Beach / Malibu Colony Road, Malibu",
+              "confidence": 0.55,
+              "supporting_evidence": "Beachfront homes destroyed directly on sand with PCH immediately behind, wide sandy beach, aerial view showing hillside destruction in background consistent with Palisades Fire burn zone along PCH corridor"
+            },
+            {
+              "lat": 34.0365,
+              "lon": -118.532,
+              "location_name": "PCH near Sunset Blvd intersection, Pacific Palisades beachfront",
+              "confidence": 0.35,
+              "supporting_evidence": "Palisades Fire centered near Pacific Palisades; PCH beachfront homes at this location also destroyed; hillside visible matches Palisades bluffs"
+            }
+          ],
+          "best_estimate": {
+            "lat": 34.0435,
+            "lon": -118.558,
+            "confidence": 0.52,
+            "location_name": "PCH beachfront near Carbon Beach / Malibu Colony, Malibu CA \u2014 Palisades Fire destruction zone"
+          },
+          "timestamp_s": 81.2
+        },
+        {
+          "reasoning": {
+            "terrain": "Steep hillside rising immediately behind a narrow coastal strip, with the Pacific Ocean visible to the right (west). The hillside shows burnt chaparral vegetation consistent with the Palisades/Malibu area. The beach is wide and sandy with gentle surf. This matches the Santa Monica Mountains coastal edge perfectly \u2014 steep slopes dropping to PCH then beach.",
+            "built_environment": "Dense row of beachfront structures completely destroyed \u2014 only skeletal metal frames, concrete foundations, and ash/debris fields remain. The structures were built directly on or immediately behind the beach, side-by-side in a very tight linear arrangement. A road (PCH) runs between the hillside homes and the beachfront row. Hillside terraced homes above are partially visible and some still standing. This density and beachfront-on-sand configuration is characteristic of Malibu Colony or Carbon Beach.",
+            "distinctive_features": [
+              "Wide sandy beach with no structures on sand itself \u2014 homes were right at beach edge",
+              "Tight linear row of completely destroyed beachfront homes (only frames remain)",
+              "PCH visible as the road separating beach homes from hillside",
+              "Steep burnt hillside immediately inland with some surviving hillside structures",
+              "Aerial drone perspective looking northwest along coastline",
+              "Beach width and orientation consistent with Malibu Colony / Carbon Beach stretch",
+              "No pier visible \u2014 rules out Malibu Pier vicinity",
+              "Coastline curves slightly \u2014 consistent with the Malibu Colony to Point Dume area",
+              "Density of destroyed structures suggests a high-value beachfront colony"
+            ],
+            "location_inference": "This is almost certainly Malibu Colony (also known as the Malibu Road / Carbon Beach area) \u2014 the famous gated beachfront colony in Malibu where homes sit directly on the sand. The Palisades Fire burned through this area on January 7-8, 2025. The aerial view looking northwest along the coast, with the steep Santa Monica Mountains hillside on the left and the Pacific on the right, with that distinctive tight linear row of destroyed beachfront homes, strongly matches the Malibu Colony stretch around Malibu Road / PCH near Malibu Lagoon. The approximate coordinates for Malibu Colony center are around 34.034\u00b0N, 118.685\u00b0W."
+          },
+          "candidates": [
+            {
+              "lat": 34.034,
+              "lon": -118.685,
+              "location_name": "Malibu Colony / Carbon Beach, PCH beachfront, Malibu CA",
+              "confidence": 0.78,
+              "supporting_evidence": "Tight linear row of completely destroyed beachfront homes directly on sand, with PCH behind them and steep burnt hillside \u2014 matches Malibu Colony layout precisely. Wide sandy beach width and coastal orientation consistent with this stretch."
+            },
+            {
+              "lat": 34.028,
+              "lon": -118.66,
+              "location_name": "Las Virgenes / Malibu Road beachfront near Malibu Lagoon",
+              "confidence": 0.15,
+              "supporting_evidence": "Alternative section of PCH beachfront slightly southeast of Malibu Colony, also burned in Palisades Fire."
+            }
+          ],
+          "best_estimate": {
+            "lat": 34.034,
+            "lon": -118.685,
+            "confidence": 0.78,
+            "location_name": "Malibu Colony beachfront, Pacific Coast Highway, Malibu CA \u2014 destroyed by Palisades Fire Jan 2025"
+          },
+          "timestamp_s": 154.28
+        }
+      ],
+      "source_video": "videos/BuHbUnu5XpY_merged.mp4"
+    },
+    {
+      "event_id": "palisades_wildfire",
+      "lat": 34.043,
+      "lon": -118.612,
+      "confidence": 0.95,
+      "location_name": "Big Rock / Las Tunas Beach along PCH, near Pacific Palisades-Malibu boundary",
+      "reasoning": {
+        "terrain": "Steep coastal bluff/hillside dropping sharply to Pacific Coast Highway and then directly to the Pacific Ocean. The hillside shows dry chaparral vegetation with scattered residential development on terraced lots. The mountains rise steeply behind the coastal strip. This is a classic Santa Monica Mountains coastal edge profile \u2014 narrow coastal shelf with PCH squeezed between the bluff and ocean.",
+        "built_environment": "Scattered single-family homes on the steep hillside above PCH, typical of the Las Tunas/Big Rock area between Pacific Palisades and Malibu. Homes are sparse, set on terraced lots carved into the bluff. The road visible is PCH (4-lane divided highway) running directly along the beach edge with the ocean immediately to the south. The hillside community appears to be Big Rock, which sits on bluffs above PCH between Pacific Palisades proper and Malibu.",
+        "distinctive_features": [
+          "On-screen text explicitly reads 'Las Tunas Beach and Big Rock' \u2014 direct landmark identification",
+          "PCH running along narrow coastal shelf between steep bluff and ocean",
+          "Steep chaparral-covered hillside with scattered residential development",
+          "Pacific Ocean visible to the south with wave action",
+          "Aerial/drone perspective looking north/northwest toward hillside community",
+          "Rocky beach/shoreline consistent with Big Rock area",
+          "Drone Sperre watermark in bottom right",
+          "Homes terraced into steep bluff face above PCH"
+        ],
+        "location_inference": "The text overlay explicitly identifies this as the Las Tunas Beach and Big Rock area along PCH. Big Rock is a neighborhood on the coastal bluffs between Pacific Palisades and Malibu, approximately at PCH mile marker around 17-18. Las Tunas Beach is the beach directly fronting this area. The camera appears to be looking north/northeast at the Big Rock hillside community above PCH. Coordinates for Big Rock/Las Tunas Beach on PCH are approximately 34.043\u00b0N, 118.612\u00b0W."
+      },
+      "all_frame_results": [
+        {
+          "reasoning": {
+            "terrain": "Aerial/drone view looking straight down at a narrow coastal strip. Sandy beach visible with active wave wash. The structure sits directly on the beach/ocean interface with no road visible between structure and water \u2014 suggesting this is a beachfront property right on PCH's ocean side. Flat coastal terrain consistent with Carbon Beach / Malibu Colony area.",
+            "built_environment": "Large flat-roofed concrete/stucco structures viewed from directly above. Multiple adjacent units or rooms visible as rectangular slabs. Severe structural damage: collapsed sections, exposed rebar, debris piles, blue tarps over rubble. Foundations exposed where walls have collapsed toward the ocean. Red spray-paint markings (damage assessment tags) visible on slabs. This matches upscale Malibu beachfront homes (Carbon Beach / Malibu Colony style) that have suffered catastrophic fire damage and partial structural collapse from wave action post-fire.",
+            "distinctive_features": [
+              "Drone Sphere watermark visible in lower right corner",
+              "Structures built directly on sandy beach with ocean waves washing against foundations",
+              "Multiple connected rectangular concrete slabs \u2014 large beachfront compound",
+              "Blue tarps covering debris \u2014 post-disaster emergency covering",
+              "Red outline markings on concrete (damage assessment spray paint)",
+              "Exposed rebar and foundation piles where walls have collapsed",
+              "Wave wash reaching foundation bases \u2014 coastal erosion/storm damage combined with fire",
+              "No PCH visible \u2014 structure is on ocean side of PCH",
+              "Sandy beach approximately 20-30m wide between structure and wave break"
+            ],
+            "location_inference": "This is almost certainly a beachfront property along Carbon Beach or Malibu Colony (PCH ocean-side), in the Malibu stretch affected by the Palisades Fire. The combination of large concrete beachfront slabs, fire damage, structural collapse, and emergency tarps is consistent with the heavily damaged beachfront homes documented along PCH near Malibu Colony (around PCH mile marker 22-24). The scale and layout suggest Malibu Colony area rather than Carbon Beach, as the structures appear larger and more compound-like."
+          },
+          "candidates": [
+            {
+              "lat": 34.0195,
+              "lon": -118.6782,
+              "location_name": "Malibu Colony beachfront, PCH ocean side, near Malibu Colony Road",
+              "confidence": 0.45,
+              "supporting_evidence": "Large beachfront compound structures on ocean side of PCH, severe fire and structural damage pattern, sandy beach with direct wave access to foundations"
+            },
+            {
+              "lat": 34.0142,
+              "lon": -118.5971,
+              "location_name": "Carbon Beach (Billionaire's Beach) beachfront structures near PCH",
+              "confidence": 0.3,
+              "supporting_evidence": "Carbon Beach also has large luxury beachfront compounds directly on sand, fire damage documented in this area"
+            },
+            {
+              "lat": 34.0355,
+              "lon": -118.7085,
+              "location_name": "Broad Beach / Trancas area beachfront structures",
+              "confidence": 0.15,
+              "supporting_evidence": "Broad Beach has similar large beachfront compounds but slightly further from primary Palisades Fire zone"
+            }
+          ],
+          "best_estimate": {
+            "lat": 34.0195,
+            "lon": -118.6782,
+            "confidence": 0.4,
+            "location_name": "Malibu Colony beachfront compound, Pacific Coast Highway ocean side, Malibu CA"
+          },
+          "timestamp_s": 10.6695
+        },
+        {
+          "reasoning": {
+            "terrain": "Steep coastal bluff/hillside dropping sharply to Pacific Coast Highway and then directly to the Pacific Ocean. The hillside shows dry chaparral vegetation with scattered residential development on terraced lots. The mountains rise steeply behind the coastal strip. This is a classic Santa Monica Mountains coastal edge profile \u2014 narrow coastal shelf with PCH squeezed between the bluff and ocean.",
+            "built_environment": "Scattered single-family homes on the steep hillside above PCH, typical of the Las Tunas/Big Rock area between Pacific Palisades and Malibu. Homes are sparse, set on terraced lots carved into the bluff. The road visible is PCH (4-lane divided highway) running directly along the beach edge with the ocean immediately to the south. The hillside community appears to be Big Rock, which sits on bluffs above PCH between Pacific Palisades proper and Malibu.",
+            "distinctive_features": [
+              "On-screen text explicitly reads 'Las Tunas Beach and Big Rock' \u2014 direct landmark identification",
+              "PCH running along narrow coastal shelf between steep bluff and ocean",
+              "Steep chaparral-covered hillside with scattered residential development",
+              "Pacific Ocean visible to the south with wave action",
+              "Aerial/drone perspective looking north/northwest toward hillside community",
+              "Rocky beach/shoreline consistent with Big Rock area",
+              "Drone Sperre watermark in bottom right",
+              "Homes terraced into steep bluff face above PCH"
+            ],
+            "location_inference": "The text overlay explicitly identifies this as the Las Tunas Beach and Big Rock area along PCH. Big Rock is a neighborhood on the coastal bluffs between Pacific Palisades and Malibu, approximately at PCH mile marker around 17-18. Las Tunas Beach is the beach directly fronting this area. The camera appears to be looking north/northeast at the Big Rock hillside community above PCH. Coordinates for Big Rock/Las Tunas Beach on PCH are approximately 34.043\u00b0N, 118.612\u00b0W."
+          },
+          "candidates": [
+            {
+              "lat": 34.043,
+              "lon": -118.612,
+              "location_name": "Big Rock / Las Tunas Beach, PCH, Pacific Palisades-Malibu boundary",
+              "confidence": 0.95,
+              "supporting_evidence": "On-screen text explicitly names 'Las Tunas Beach and Big Rock' \u2014 direct textual confirmation combined with matching coastal bluff terrain, PCH road configuration, and hillside residential development on steep bluffs above PCH"
+            }
+          ],
+          "best_estimate": {
+            "lat": 34.043,
+            "lon": -118.612,
+            "confidence": 0.95,
+            "location_name": "Big Rock / Las Tunas Beach along PCH, near Pacific Palisades-Malibu boundary"
+          },
+          "timestamp_s": 106.695
+        },
+        {
+          "reasoning": {
+            "terrain": "Aerial/nadir drone view showing a coastal edge where ocean waves (white foam, rocky shoreline) meet a structure and a road. The water is on the left side, a damaged structure/foundation in the center, and a multi-lane road with yellow centerline on the right. This matches PCH running directly at the beach edge in the Malibu/Pacific Palisades area.",
+            "built_environment": "The visible structure appears to be a severely damaged building \u2014 concrete/masonry foundation with peeling surfaces, exposed rubble, fire and water damage indicators. The road visible is a divided highway (yellow centerline, grey asphalt) consistent with Pacific Coast Highway (CA-1). The structure sits literally at the ocean-road interface, consistent with beachfront commercial or residential structures along PCH.",
+            "distinctive_features": [
+              "Ocean waves breaking directly against rocky/rubble coastline \u2014 Pacific Ocean",
+              "Multi-lane highway with yellow centerline immediately adjacent to structure \u2014 consistent with PCH/CA-1",
+              "Severely damaged concrete/masonry structure at the water's edge",
+              "Nadir drone perspective showing road-structure-ocean interface",
+              "Fire damage indicators: peeling, discolored surfaces, structural collapse",
+              "Rocky shoreline with boulders \u2014 consistent with PCH coastal edge near Malibu",
+              "Text overlay: 'Donate to disaster relief for wildfire victims at LAFoodBank.org' confirming Palisades Wildfire context"
+            ],
+            "location_inference": "The frame shows a beachfront structure that has been severely damaged, sitting between PCH and the Pacific Ocean. The rocky shoreline and road configuration are consistent with the stretch of PCH through the Pacific Palisades/Malibu area. Beachfront structures destroyed by the Palisades Fire along PCH near Pacific Palisades or Malibu Colony area. The rocky beach edge (not wide sandy beach) and the tight road-structure-ocean geometry suggest the northern portion of Pacific Palisades along PCH, possibly near the Castellammare or Malibu Colony area where homes sit directly on PCH at the rocky ocean edge."
+          },
+          "candidates": [
+            {
+              "lat": 34.0359,
+              "lon": -118.5275,
+              "location_name": "PCH beachfront structure near Pacific Palisades / Malibu Colony area",
+              "confidence": 0.52,
+              "supporting_evidence": "Multi-lane highway with yellow centerline adjacent to severely fire-damaged coastal structure at rocky ocean edge \u2014 consistent with PCH beachfront properties destroyed in Palisades Fire"
+            },
+            {
+              "lat": 34.024,
+              "lon": -118.51,
+              "location_name": "PCH near Castellammare / lower Pacific Palisades coast",
+              "confidence": 0.3,
+              "supporting_evidence": "Rocky shoreline and PCH road geometry matches this southern stretch of PCH through Pacific Palisades"
+            }
+          ],
+          "best_estimate": {
+            "lat": 34.0359,
+            "lon": -118.5275,
+            "confidence": 0.52,
+            "location_name": "Pacific Coast Highway beachfront, Pacific Palisades / Malibu Colony vicinity \u2014 fire-damaged coastal structure"
+          },
+          "timestamp_s": 202.7205
+        }
+      ],
+      "source_video": "videos/7Kx52tBJQjo_merged.mp4"
+    },
+    {
+      "event_id": "palisades_wildfire",
+      "lat": 34.035,
+      "lon": -118.68,
+      "confidence": 0.72,
+      "location_name": "Malibu Colony beachfront, PCH ~22000 block, Malibu CA",
+      "reasoning": {
+        "terrain": "Aerial drone view at dusk/dawn showing a narrow coastal strip between a steep hillside/bluff to the inland side and a wide sandy beach with Pacific Ocean to the right. The terrain matches the PCH corridor perfectly \u2014 narrow strip of land between mountains and ocean. The hillside in the background shows structures on terraced slopes. Sandy beach is wide and extends along the full length of the shot.",
+        "built_environment": "Dense row of beachfront homes completely destroyed by fire \u2014 only skeletal wooden structural frames remain, with total roof loss, wall collapse, and ash fields throughout. The structures were packed tightly in a linear row directly on the sand behind what appears to be PCH. A 4-lane road (PCH) is visible on the inland side of the destroyed structures. Emergency vehicles and personnel visible on the road. On the hillside/bluff behind PCH, some structures appear to have survived or are partially intact. The density and layout \u2014 tight row of beachfront homes directly on sand with PCH immediately behind \u2014 strongly matches Malibu Colony or Carbon Beach / Las Virgenes area beachfront colonies.",
+        "distinctive_features": [
+          "Pacific Coast Highway (PCH) clearly visible as 4-lane road running parallel to beach",
+          "Row of destroyed beachfront homes directly on sand \u2014 consistent with Malibu Colony or Carbon Beach",
+          "Wide sandy beach typical of Malibu coastline",
+          "Steep hillside/bluff with surviving structures in background",
+          "Emergency vehicles and workers on PCH",
+          "Complete destruction pattern: exposed wooden frames, ash fields, debris on sand",
+          "Linear coastal geometry matches Malibu beachfront colony areas",
+          "Drone perspective looking northwest along PCH corridor",
+          "No pier visible \u2014 rules out immediate Malibu Pier vicinity",
+          "Distance between hillside and beach consistent with Malibu Colony / Carbon Beach area near Malibu Road"
+        ],
+        "location_inference": "The scene most closely matches the Malibu Colony / Carbon Beach area along PCH. The tight row of beachfront homes directly on the sand with PCH immediately inland, combined with the steep hillside backdrop and wide sandy beach, is most consistent with the Malibu Colony (PCH around 22000-23000 block) or the stretch near Malibu Road. The Palisades Fire extended into Malibu, and this area of beachfront homes was heavily impacted. The geometry \u2014 narrow land strip, homes on sand, PCH, steep hills \u2014 places this near the Malibu Colony area around 34.035\u00b0N, 118.68\u00b0W."
+      },
+      "all_frame_results": [
+        {
+          "reasoning": {
+            "terrain": "Aerial drone view at dusk/dawn showing a narrow coastal strip between a steep hillside/bluff to the inland side and a wide sandy beach with Pacific Ocean to the right. The terrain matches the PCH corridor perfectly \u2014 narrow strip of land between mountains and ocean. The hillside in the background shows structures on terraced slopes. Sandy beach is wide and extends along the full length of the shot.",
+            "built_environment": "Dense row of beachfront homes completely destroyed by fire \u2014 only skeletal wooden structural frames remain, with total roof loss, wall collapse, and ash fields throughout. The structures were packed tightly in a linear row directly on the sand behind what appears to be PCH. A 4-lane road (PCH) is visible on the inland side of the destroyed structures. Emergency vehicles and personnel visible on the road. On the hillside/bluff behind PCH, some structures appear to have survived or are partially intact. The density and layout \u2014 tight row of beachfront homes directly on sand with PCH immediately behind \u2014 strongly matches Malibu Colony or Carbon Beach / Las Virgenes area beachfront colonies.",
+            "distinctive_features": [
+              "Pacific Coast Highway (PCH) clearly visible as 4-lane road running parallel to beach",
+              "Row of destroyed beachfront homes directly on sand \u2014 consistent with Malibu Colony or Carbon Beach",
+              "Wide sandy beach typical of Malibu coastline",
+              "Steep hillside/bluff with surviving structures in background",
+              "Emergency vehicles and workers on PCH",
+              "Complete destruction pattern: exposed wooden frames, ash fields, debris on sand",
+              "Linear coastal geometry matches Malibu beachfront colony areas",
+              "Drone perspective looking northwest along PCH corridor",
+              "No pier visible \u2014 rules out immediate Malibu Pier vicinity",
+              "Distance between hillside and beach consistent with Malibu Colony / Carbon Beach area near Malibu Road"
+            ],
+            "location_inference": "The scene most closely matches the Malibu Colony / Carbon Beach area along PCH. The tight row of beachfront homes directly on the sand with PCH immediately inland, combined with the steep hillside backdrop and wide sandy beach, is most consistent with the Malibu Colony (PCH around 22000-23000 block) or the stretch near Malibu Road. The Palisades Fire extended into Malibu, and this area of beachfront homes was heavily impacted. The geometry \u2014 narrow land strip, homes on sand, PCH, steep hills \u2014 places this near the Malibu Colony area around 34.035\u00b0N, 118.68\u00b0W."
+          },
+          "candidates": [
+            {
+              "lat": 34.035,
+              "lon": -118.68,
+              "location_name": "Malibu Colony / Carbon Beach area, PCH near Malibu Road",
+              "confidence": 0.72,
+              "supporting_evidence": "Tight row of beachfront homes destroyed on sand with PCH immediately inland and steep hillside backdrop matches Malibu Colony geometry precisely; wide sandy beach and Pacific Ocean visible to right/south"
+            },
+            {
+              "lat": 34.028,
+              "lon": -118.64,
+              "location_name": "PCH beachfront south of Malibu, near Coastline Drive",
+              "confidence": 0.35,
+              "supporting_evidence": "Similar coastal geometry but slightly less consistent with hillside proximity"
+            },
+            {
+              "lat": 34.042,
+              "lon": -118.71,
+              "location_name": "PCH north Malibu Colony near Webb Way",
+              "confidence": 0.3,
+              "supporting_evidence": "Alternative northern stretch of Malibu beachfront colony"
+            }
+          ],
+          "best_estimate": {
+            "lat": 34.035,
+            "lon": -118.68,
+            "confidence": 0.72,
+            "location_name": "Malibu Colony beachfront, PCH ~22000 block, Malibu CA"
+          },
+          "timestamp_s": 6.429500000000001
+        },
+        {
+          "reasoning": {
+            "terrain": "Coastal hillside terrain visible in background with steep Santa Monica Mountains slopes. Ocean (Pacific) visible in mid-distance to the southwest/west, consistent with Malibu/Pacific Palisades coastline. Hills show burnt/scorched chaparral vegetation typical of post-wildfire Santa Monica Mountains. Blue sky, no cloud cover. Terrain elevation suggests a slightly elevated position above PCH level.",
+            "built_environment": "Foreground shows completely destroyed structure \u2014 only steel/metal frame skeleton remains with extensive debris field, ash, and rubble. To the right, a partially standing white stucco structure with chimney remains intact (typical upscale California coastal construction). Buildings appear to be mid-density residential, multi-story, consistent with Malibu Colony or beachside Malibu residential neighborhoods. The surviving structure shows Mediterranean/California coastal architectural style with white stucco walls. The destroyed structure had a metal pergola/frame roof structure typical of upscale outdoor living spaces.",
+            "distinctive_features": [
+              "Pacific Ocean visible in background to southwest",
+              "Steep burnt hillside of Santa Monica Mountains visible behind",
+              "White stucco partially surviving structure with chimney to right",
+              "Metal pergola/frame skeleton of destroyed luxury home",
+              "Palm trees visible in mid-ground (scorched)",
+              "Dense residential cluster suggesting beachside Malibu",
+              "Global News watermark confirming Palisades Fire coverage",
+              "Multiple destroyed structures in row suggesting PCH-adjacent beachfront or hillside residential cluster",
+              "Coastal bluff or slightly elevated position above PCH"
+            ],
+            "location_inference": "The combination of ocean visible to southwest, steep burnt hillsides behind, upscale stucco construction, palm trees, and dense residential clustering strongly suggests this is in the Malibu area along PCH \u2014 most likely the Malibu Colony / Carbon Beach area or the La Costa Beach / Malibu Road area where beachfront homes were destroyed. The hillside backdrop and ocean angle are consistent with a location around Malibu Colony or the PCH corridor near Malibu between approximately Topanga Canyon and Malibu Pier. The elevated vantage and hillside proximity suggest it could also be the Point Dume / Paradise Cove vicinity, but the dense row housing and ocean visibility angle favor the Malibu Colony / central Malibu PCH strip."
+          },
+          "candidates": [
+            {
+              "lat": 34.0359,
+              "lon": -118.6923,
+              "location_name": "Malibu Colony / Carbon Beach area, PCH, Malibu CA",
+              "confidence": 0.48,
+              "supporting_evidence": "Beachfront luxury homes destroyed, ocean visible to southwest, Santa Monica Mountains backdrop, stucco construction, palm trees, dense residential row along PCH"
+            },
+            {
+              "lat": 34.0421,
+              "lon": -118.7102,
+              "location_name": "La Costa Beach / Malibu Road, central Malibu PCH corridor",
+              "confidence": 0.3,
+              "supporting_evidence": "Similar coastal hillside setting, upscale stucco homes along PCH, ocean and mountain backdrop match"
+            },
+            {
+              "lat": 34.0489,
+              "lon": -118.5321,
+              "location_name": "Pacific Palisades hillside above PCH near Sunset Boulevard",
+              "confidence": 0.15,
+              "supporting_evidence": "Burnt hillside and coastal proximity, but density and building style lean more toward Malibu Colony than Palisades proper"
+            }
+          ],
+          "best_estimate": {
+            "lat": 34.0359,
+            "lon": -118.6923,
+            "confidence": 0.45,
+            "location_name": "Malibu Colony / Carbon Beach, PCH, Malibu CA \u2014 destroyed beachfront residential area"
+          },
+          "timestamp_s": 64.295
+        },
+        {
+          "reasoning": {
+            "terrain": "Aerial drone view showing a densely built residential neighborhood on relatively flat to gently terraced terrain. No ocean visible in this frame, but vegetation includes palm trees and ornamental shrubs typical of upscale Southern California neighborhoods. The terrain appears to be on a hillside or terraced lot area consistent with Pacific Palisades or upper Malibu residential zones.",
+            "built_environment": "High-end residential structures with Mediterranean/Spanish Colonial Revival architecture \u2014 notably white stucco walls, arched window and doorway details, ornate facade elements still standing amid total destruction. Buildings are large, multi-room structures on substantial lots with walls, gates, and perimeter enclosures. Street layout suggests a curvilinear residential street pattern typical of hillside Pacific Palisades neighborhoods. Density is moderate \u2014 large individual lots. The architectural style (arched colonnades, white stucco, ornamental detailing) points strongly to an upscale Pacific Palisades or upper Malibu hillside neighborhood.",
+            "distinctive_features": [
+              "White stucco arched colonnade/portico structure still standing \u2014 distinctive Mediterranean Revival architecture",
+              "Palm trees surviving amid destruction",
+              "Large multi-story ruins with white painted masonry walls",
+              "Curvilinear residential street visible in upper portion of frame",
+              "Debris fields of grey ash and burnt timber across multiple large lots",
+              "Ornamental gate or entry structure visible",
+              "Global News watermark confirming this is professional news footage of Palisades Fire",
+              "Building footprints suggest 3000-5000+ sq ft homes consistent with Palisades upscale area",
+              "No ocean visible \u2014 inland from PCH, elevated position"
+            ],
+            "location_inference": "The architectural style (Spanish/Mediterranean Revival with arched colonnades, white stucco) and lot sizes are most consistent with the upper residential streets of Pacific Palisades, specifically the Castellammare or Alphabet Streets area above PCH, or possibly the Palisades Highlands area. The ornate arched structure is a distinctive anchor \u2014 this style is very common in the Via de las Olas / Paseo Miramar / Amalfi Drive corridor in Pacific Palisades. The terraced hillside lots, palm trees, and dense upscale residential pattern best match the Pacific Palisades neighborhood between Sunset Blvd and PCH on the hillside. Most likely the Castellammare neighborhood or the streets off Sunset near the bluff edge \u2014 approximately the Paseo Miramar / Amalfi Drive area."
+          },
+          "candidates": [
+            {
+              "lat": 34.0385,
+              "lon": -118.542,
+              "location_name": "Castellammare / Amalfi Drive area, Pacific Palisades",
+              "confidence": 0.52,
+              "supporting_evidence": "Mediterranean arched colonnade architecture, white stucco, palm trees, large hillside lots, curvilinear streets \u2014 matches Castellammare neighborhood above PCH in Pacific Palisades"
+            },
+            {
+              "lat": 34.0425,
+              "lon": -118.538,
+              "location_name": "Paseo Miramar / Via de las Olas, Pacific Palisades",
+              "confidence": 0.3,
+              "supporting_evidence": "Upscale Spanish Revival homes on terraced hillside streets, consistent with streets off Sunset Blvd in Pacific Palisades core"
+            },
+            {
+              "lat": 34.031,
+              "lon": -118.552,
+              "location_name": "Malibu Colony adjacent / PCH hillside above Carbon Beach",
+              "confidence": 0.12,
+              "supporting_evidence": "Large ornate homes destroyed, but location feels more inland than beachfront Malibu Colony"
+            }
+          ],
+          "best_estimate": {
+            "lat": 34.0385,
+            "lon": -118.542,
+            "confidence": 0.52,
+            "location_name": "Castellammare neighborhood, Pacific Palisades \u2014 likely Amalfi Drive or Via Blanca area above PCH"
+          },
+          "timestamp_s": 122.1605
+        }
+      ],
+      "source_video": "videos/An9t0zJPo1I_merged.mp4"
+    }
+  ]
+}

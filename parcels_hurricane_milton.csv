@@ -1,0 +1,61 @@
+parcel_id,address,lat,lon,structure_type,year_built,assessed_value,owner_name,stories,sq_ft
+HCF-2024-001,4521 Cortez Rd W,27.4923,-82.5841,residential,1987,245000,James R. Whitfield,1,1842
+HCF-2024-002,8832 Manatee Ave W,27.4756,-82.6012,commercial,2001,587000,Suncoast Realty LLC,2,4200
+HCF-2024-003,1203 Gulf Dr N,27.5102,-82.6845,residential,1974,312000,Patricia A. Dunmore,1,1650
+HCF-2024-004,3318 53rd Ave E,27.4891,-82.4723,residential,1995,198000,Carlos M. Rivera,1,1520
+HCF-2024-005,7745 State Road 70 E,27.5234,-82.3845,commercial,2008,920000,Bradenton Holdings Inc,1,8750
+HCF-2024-006,2209 75th St W,27.4667,-82.5234,multi_family,1988,445000,Palm Breeze Properties,2,3600
+HCF-2024-007,5560 Riverview Blvd,27.5445,-82.5912,residential,2003,278000,Sandra K. Morrison,2,2105
+HCF-2024-008,910 Tamiami Trail,27.5578,-82.4456,commercial,1999,1240000,Gulf Coast Ventures LLC,1,12400
+HCF-2024-009,4402 El Conquistador Pkwy,27.4512,-82.6123,residential,2015,389000,Michael T. Brennan,2,2680
+HCF-2024-010,667 Banana Ave,27.5789,-82.5023,residential,1962,167000,Dorothy L. Hargrove,1,1340
+HCF-2024-011,3321 Morgan Johnson Rd,27.6012,-82.4512,residential,1991,221000,Roberto D. Vasquez,1,1780
+HCF-2024-012,8901 Erie Rd E,27.4345,-82.4234,commercial,2005,765000,Sarasota Bay Partners,2,6500
+HCF-2024-013,1456 51st St W,27.4789,-82.6334,residential,1978,195000,Nancy J. Tillman,1,1490
+HCF-2024-014,2234 Bay Shore Rd,27.5923,-82.5567,residential,2018,512000,Andrew P. MacAllister,2,3120
+HCF-2024-015,5012 Oneco Rd,27.4934,-82.3923,residential,1984,178000,Gloria E. Santos,1,1612
+HCF-2024-016,7123 15th St E,27.5234,-82.4812,multi_family,1997,634000,Sunbelt Apartment Group,3,7800
+HCF-2024-017,345 Coquina Beach Blvd,27.4512,-82.6712,commercial,2012,2100000,Anna Maria Island Dev Co,2,15600
+HCF-2024-018,6678 Lockwood Ridge Rd,27.5345,-82.4623,residential,2000,267000,Thomas E. Kirby,2,2230
+HCF-2024-019,1890 Fruitville Rd,27.5512,-82.3456,commercial,1996,445000,Central Florida Props,1,5200
+HCF-2024-020,4233 26th St W,27.4712,-82.5823,residential,1969,148000,Evelyn M. Chapman,1,1285
+HCF-2024-021,9012 Cortez Rd W,27.4845,-82.6234,commercial,2003,890000,West Bay Commercial LLC,1,9800
+HCF-2024-022,2356 Whitfield Ave,27.4623,-82.5012,residential,1992,234000,Kevin L. Ostrowski,2,1960
+HCF-2024-023,5589 SR 64 E,27.5678,-82.3712,commercial,2009,1560000,Manatee Commerce Grp,2,18200
+HCF-2024-024,730 Bayway Blvd,27.4934,-82.6523,residential,2016,478000,Jennifer L. Blackwood,2,2890
+HCF-2024-025,3445 Tallevast Rd,27.4456,-82.4834,residential,1986,212000,Frank G. Marino,1,1745
+HCF-2024-026,1122 Manatee Ave E,27.5123,-82.5423,multi_family,2011,712000,Coastline Rentals LLC,3,8400
+HCF-2024-027,8234 59th St E,27.4678,-82.4312,residential,1973,163000,Helen R. Papadopoulos,1,1390
+HCF-2024-028,6701 US-41,27.5456,-82.4923,commercial,2007,1890000,Gulf Trail Properties,1,22000
+HCF-2024-029,2890 Kinnan St,27.4823,-82.5612,residential,1994,224000,Marcus A. Delgado,1,1830
+HCF-2024-030,5123 Palma Sola Blvd,27.5345,-82.6078,residential,2004,345000,Christine N. Walsh,2,2450
+HCF-2024-031,4412 9th Ave W,27.4712,-82.5712,residential,1988,189000,Roy T. Henderson,1,1560
+HCF-2024-032,7823 Gull Dr,27.4312,-82.6645,residential,2019,634000,William F. Stanton Jr,2,3340
+HCF-2024-033,1567 Medical Center Pkwy,27.5234,-82.5012,commercial,2014,3450000,Sarasota Medical Holdings,4,42000
+HCF-2024-034,3890 Prospect Rd,27.6123,-82.4234,residential,1981,198000,Linda M. Kowalski,1,1620
+HCF-2024-035,9234 Cortez Rd E,27.4789,-82.4923,residential,2001,258000,Jose A. Fernandez,2,2080
+HCF-2024-036,2012 75th St W,27.4567,-82.5345,multi_family,1985,523000,Harbor View Apts LLC,2,5600
+HCF-2024-037,5678 River Rd,27.5789,-82.5234,residential,2012,412000,Elizabeth G. Fontaine,2,2760
+HCF-2024-038,800 Cedar Point Rd,27.5034,-82.6712,residential,1977,225000,Harold J. Prentiss,1,1710
+HCF-2024-039,4234 9th St W,27.4845,-82.5823,commercial,1998,678000,Old Town Square LLC,1,7800
+HCF-2024-040,6789 Desoto Rd,27.6234,-82.3923,residential,1967,142000,Mildred P. Russo,1,1240
+HCF-2024-041,3123 Northgate Blvd,27.5012,-82.5123,residential,2009,299000,Daniel R. Perkins,2,2310
+HCF-2024-042,1890 Lake Flores Dr,27.4923,-82.4712,residential,2020,567000,Brittany C. Hawthorne,2,3080
+HCF-2024-043,7345 El Conquistador Pkwy,27.4434,-82.6312,commercial,2006,1120000,Southwest FL Hospitality,3,14500
+HCF-2024-044,2567 Bayshore Gardens Pkwy,27.4623,-82.5923,residential,1979,172000,Arthur W. Pendleton,1,1475
+HCF-2024-045,5890 12th St E,27.5456,-82.4523,multi_family,2016,890000,Metro Living Partners,4,10200
+HCF-2024-046,1023 Palma Sola Bay Cir,27.5234,-82.6456,residential,2017,545000,Michelle T. Crawford,2,3210
+HCF-2024-047,4567 Trailer Park Dr,27.4789,-82.5534,residential,1972,98000,Raymond F. Doyle,1,980
+HCF-2024-048,8123 SR 70 W,27.5123,-82.6023,commercial,2004,2340000,Bradenton West Dev LLC,2,27500
+HCF-2024-049,3456 Myrtle Ave,27.4934,-82.5234,residential,1993,216000,Teresa A. Nguyen,1,1790
+HCF-2024-050,6234 Longboat Club Rd,27.4312,-82.6823,residential,2010,1234000,Philip S. Worthington,2,4680
+HCF-2024-051,2789 Tallevast Rd,27.4512,-82.4934,residential,1989,203000,Sharon M. Aldridge,1,1670
+HCF-2024-052,5345 US-301 N,27.5678,-82.3534,commercial,2011,987000,301 Corridor Invest LLC,1,11200
+HCF-2024-053,1234 Bayside Dr,27.5867,-82.6123,residential,2014,623000,Gregory K. Sutherland,2,3560
+HCF-2024-054,4890 Manatee Ave W,27.4723,-82.6145,residential,1982,188000,Rose B. Carbone,1,1555
+HCF-2024-055,7456 Parkway Blvd,27.5012,-82.4812,multi_family,2018,1120000,Sunstate Residential LLC,3,12400
+HCF-2024-056,3234 Creekwood Blvd,27.4678,-82.4523,commercial,2013,778000,CreekSide Business Park,2,8900
+HCF-2024-057,9023 SR 64 W,27.5345,-82.6234,residential,1975,165000,Albert J. Winslow,1,1395
+HCF-2024-058,2123 Morrill St,27.4856,-82.5712,residential,1966,128000,Margaret O. Plummer,1,1180
+HCF-2024-059,5567 Cattlemen Rd,27.4523,-82.4312,commercial,2002,545000,Sarasota East Commerce,1,6700
+HCF-2024-060,1789 Gulf of Mexico Dr,27.4234,-82.6934,residential,2021,1890000,Harrison R. Beaumont III,3,6200

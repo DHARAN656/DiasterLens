@@ -1,0 +1,174 @@
+[
+  {
+    "source": "Manatee County Volunteer Fire Department - Station 12",
+    "date": "2024-10-09",
+    "entries": [
+      {
+        "address": "4821 Cortez Rd W, Bradenton, FL 34210",
+        "severity": "severe",
+        "notes": "Roof partially collapsed on east wing. Structural walls cracked. Active gas leak reported, utilities shut off. Uninhabitable. Elderly resident evacuated by unit.",
+        "lat": 27.4812,
+        "lon": -82.6341
+      },
+      {
+        "address": "1103 Harbor Winds Dr, Palmetto, FL 34221",
+        "severity": "moderate",
+        "notes": "Significant window damage on south-facing facade, interior water intrusion reported in two rooms. Roof shingles missing but decking appears intact. INTENTIONAL_DISCREPANCY: actual damage is severe \u2014 rear load-bearing wall has visible bow and foundation cracking not noted by field crew.",
+        "lat": 27.5521,
+        "lon": -82.5643
+      },
+      {
+        "address": "7740 US-41 N, Ellenton, FL 34222",
+        "severity": "minor",
+        "notes": "Commercial strip facade sign blown down, parking lot debris. Building envelope appears sound. No structural concerns observed.",
+        "lat": 27.5234,
+        "lon": -82.5012
+      },
+      {
+        "address": "312 Palmetto Ave, Palmetto, FL 34221",
+        "severity": "destroyed",
+        "notes": "Single-family residence reduced to slab. Entire roof and upper structure absent. Debris field extends ~40 ft into adjacent lot. No occupants located.",
+        "lat": 27.5198,
+        "lon": -82.5731
+      },
+      {
+        "address": "9902 Sundial Ct, Bradenton, FL 34212",
+        "severity": "moderate",
+        "notes": "Garage door blown in, vehicle inside crushed by falling soffit. Interior living space appears dry. Fencing destroyed on all sides.",
+        "lat": 27.5501,
+        "lon": -82.4489
+      },
+      {
+        "address": "2255 Lakewood Ranch Blvd, Bradenton, FL 34211",
+        "severity": "none",
+        "notes": "Newer construction, impact windows intact. No visible damage observed from street. Resident confirmed minimal interior issues.",
+        "lat": 27.5612,
+        "lon": -82.3901
+      },
+      {
+        "address": "614 Whisperwood Ln, Bradenton, FL 34210",
+        "severity": "minor",
+        "notes": "Several roof tiles displaced. Screened lanai enclosure torn. No apparent structural compromise. Owner on site, declined further inspection.",
+        "lat": 27.4798,
+        "lon": -82.6112
+      }
+    ]
+  },
+  {
+    "source": "Manatee County Building Inspection - Rapid Damage Assessment Team B",
+    "date": "2024-10-09",
+    "entries": [
+      {
+        "address": "312 Palmetto Ave, Palmetto, FL 34221",
+        "severity": "destroyed",
+        "notes": "Total loss confirmed. Slab-on-grade only remaining. Red-tagged. Owner notified via emergency contact list. Debris poses hazard to neighboring parcels.",
+        "lat": 27.5198,
+        "lon": -82.5731
+      },
+      {
+        "address": "4821 Cortez Rd W, Bradenton, FL 34210",
+        "severity": "severe",
+        "notes": "Collapsed roof section confirmed on east side. Multiple interior load-bearing walls compromised. Red-tagged, do not occupy. Gas company notified separately.",
+        "lat": 27.4812,
+        "lon": -82.6341
+      },
+      {
+        "address": "5580 Riverview Blvd, Bradenton, FL 34209",
+        "severity": "moderate",
+        "notes": "INTENTIONAL_DISCREPANCY: Field inspector noted missing shingles and broken windows and coded moderate. Subsequent review indicates truss damage visible from attic access and major soffit collapse \u2014 actual severity is severe. Yellow-tagged pending re-inspection.",
+        "lat": 27.4991,
+        "lon": -82.6487
+      },
+      {
+        "address": "18 Tidewater Cove Ct, Palmetto, FL 34221",
+        "severity": "severe",
+        "notes": "Storm surge inundation to approx. 4 ft inside structure. Drywall, flooring, HVAC, and electrical panels all submerged. Mold growth already initiating. Red-tagged.",
+        "lat": 27.5689,
+        "lon": -82.5521
+      },
+      {
+        "address": "723 Old Main St, Parrish, FL 34219",
+        "severity": "none",
+        "notes": "INTENTIONAL_DISCREPANCY: Address does not exist in county parcel records. Field team likely transposed digits \u2014 no structure located at this address during GPS verification. Entry flagged for correction.",
+        "lat": 27.5833,
+        "lon": -82.4311
+      },
+      {
+        "address": "2100 60th St W, Bradenton, FL 34209",
+        "severity": "minor",
+        "notes": "Fence line down, one window cracked. Roof appears intact from ground inspection. Yellow-tag not warranted; owner advised to monitor.",
+        "lat": 27.5044,
+        "lon": -82.6398
+      },
+      {
+        "address": "9902 Sundial Ct, Bradenton, FL 34212",
+        "severity": "moderate",
+        "notes": "Confirmed garage structural damage. Interior dry wall check showed no moisture beyond garage bay. Coded moderate, yellow-tagged. Recommend follow-up on roof edge flashing.",
+        "lat": 27.5501,
+        "lon": -82.4489
+      },
+      {
+        "address": "4410 Lena Rd, Bradenton, FL 34211",
+        "severity": "minor",
+        "notes": "Agricultural outbuilding roof panels peeled back. Residence on same parcel undamaged. Owner present and conducting own cleanup.",
+        "lat": 27.5498,
+        "lon": -82.4401
+      }
+    ]
+  },
+  {
+    "source": "American Red Cross - Manatee/Hillsborough Disaster Response Team 4",
+    "date": "2024-10-09",
+    "entries": [
+      {
+        "address": "1103 Harbor Winds Dr, Palmetto, FL 34221",
+        "severity": "moderate",
+        "notes": "Family of four sheltering in place, second bedroom unusable due to water intrusion. Provided emergency supplies and cots. Roof damage visible but family declined shelter referral. INTENTIONAL_DISCREPANCY: Red Cross volunteer did not access rear of structure where fire dept and building inspector would later confirm severe load-bearing wall damage.",
+        "lat": 27.5521,
+        "lon": -82.5643
+      },
+      {
+        "address": "18 Tidewater Cove Ct, Palmetto, FL 34221",
+        "severity": "severe",
+        "notes": "Elderly couple rescued by neighbor. Significant water damage throughout ground floor. Occupants transferred to Palmetto Community Center shelter. Pet accommodations arranged.",
+        "lat": 27.5689,
+        "lon": -82.5521
+      },
+      {
+        "address": "312 Palmetto Ave, Palmetto, FL 34221",
+        "severity": "destroyed",
+        "notes": "Complete structural loss. No occupants on site. Neighbor reports family evacuated prior to storm. Red Cross case opened for displaced family; contact info obtained from neighbor.",
+        "lat": 27.5198,
+        "lon": -82.5731
+      },
+      {
+        "address": "88 Bayside Terrace, Palmetto, FL 34221",
+        "severity": "severe",
+        "notes": "Two-story home, entire second floor roof gone. First floor accessible but saturated. Single mother with three children relocated to shelter. Large tree through living room ceiling. NOTE: This property was NOT included in fire dept or building inspector reports \u2014 INTENTIONAL_DISCREPANCY: unreported by other teams.",
+        "lat": 27.5712,
+        "lon": -82.5489
+      },
+      {
+        "address": "3301 53rd Ave W, Bradenton, FL 34210",
+        "severity": "minor",
+        "notes": "Resident flagged Red Cross vehicle. Minimal shingle loss and one cracked window pane. Occupants safe, no assistance needed beyond informational pamphlets.",
+        "lat": 27.4855,
+        "lon": -82.6023
+      },
+      {
+        "address": "2255 Lakewood Ranch Blvd, Bradenton, FL 34211",
+        "severity": "none",
+        "notes": "Drive-by assessment only. No visible damage, no residents flagged for assistance.",
+        "lat": 27.5612,
+        "lon": -82.3901
+      },
+      {
+        "address": "501 Riviera Dunes Way, Palmetto, FL 34221",
+        "severity": "severe",
+        "notes": "Waterfront condominium building, ground floor units fully inundated by surge. Approx. 11 displaced residents. Multiple cases opened. Building management on site. NOTE: This property also NOT appearing in fire dept or building inspector reports \u2014 INTENTIONAL_DISCREPANCY: second unreported severely damaged property.",
+        "lat": 27.5755,
+        "lon": -82.5601
+      }
+    ]
+  }
+]
