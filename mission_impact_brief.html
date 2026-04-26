@@ -204,12 +204,14 @@
     <div class="card">
       <div class="card-title">The Problem</div>
       <p class="problem-text">
-        After a major disaster, emergency managers must produce a
-        <strong>structure-level damage inventory</strong> before federal aid flows.
-        Today that takes <strong>2–3 days</strong> — filed by hand across isolated teams
-        that never compare notes. Drone footage, satellite imagery, and field
-        reports live in separate silos. Silent missed properties never appear in
-        the federal package. Survivors wait.
+        U.S. disasters cost <strong>~$149 billion every year</strong> (2020–2024 avg, ClimateSmart)
+        and have claimed <strong>~6,300 lives</strong> over the last decade (NOAA).
+        Yet after each event, the first bottleneck is not rescue — it is paperwork.
+        Emergency managers must produce a <strong>structure-level damage inventory</strong>
+        before a single dollar of federal aid can flow, a process that today takes
+        <strong>2–3 days</strong> of hand-filed forms across teams that never share data.
+        Drone footage, satellite imagery, and field reports sit in separate silos.
+        Missed properties never reach the federal package. Survivors wait.
       </p>
     </div>
 
@@ -218,19 +220,19 @@
       <div class="user-grid">
         <div class="user-chip">
           <div class="label">Who</div>
-          State / Local / Tribal / Territorial Emergency Manager (SLTT EM)
+          State / Local / Tribal / Territorial (SLTT) Emergency Manager — the official who files the federal damage package
         </div>
         <div class="user-chip">
           <div class="label">Workflow</div>
-          FEMA Preliminary Damage Assessment (PDA) — gating step for Presidential disaster declaration
+          FEMA (Federal Emergency Management Agency) Preliminary Damage Assessment (PDA) — the required step before a Presidential disaster declaration can be issued under the Stafford Act
         </div>
         <div class="user-chip">
           <div class="label">When</div>
-          Hour 4–12 post-impact, before Joint PDA field teams mobilise
+          Hours 4–12 post-impact, before Joint PDA field teams mobilise on foot
         </div>
         <div class="user-chip">
           <div class="label">Inputs available</div>
-          UAS drone video · Esri satellite tiles · Field reports · County parcel CSV
+          UAS (drone) video · Esri pre/post satellite tiles · Field inspector reports · County parcel CSV
         </div>
       </div>
     </div>
@@ -318,10 +320,12 @@
     <div class="card">
       <div class="card-title">Comparison Baseline</div>
       <p class="problem-text">
-        Baseline: manual cross-referencing by a GIS analyst + building inspector team.
-        DisasterLens matched or exceeded baseline on all 5 hand-labeled sites:
-        <strong>100% precision · 100% recall · 1 of 1 conflict correctly flagged</strong>.
-        Throughput: 6 videos + 4 satellite comparisons processed in ~45 min on Bedrock.
+        Today's baseline is a GIS (Geographic Information System) analyst manually
+        comparing drone footage, satellite tiles, and printed field reports — typically
+        one site every 30–60 minutes. DisasterLens ran the same 5 locations in
+        under 45 minutes total, surfaced an unreported site the manual review
+        would have filed later, and flagged a severity conflict the two human teams
+        had not yet reconciled.
       </p>
     </div>
 
@@ -382,10 +386,10 @@
     <div class="card">
       <div class="card-title">Honest Limitations</div>
       <ul class="limit-list">
-        <li>Geo-location relies on visible landmarks; GPS-tagged video removes this dependency in production</li>
-        <li>Pre-event satellite baseline (Esri Wayback 2014) is ~10 yr old; same-month imagery reduces false detections</li>
-        <li>Address fuzzy matching fails on informal names (PCH vs Pacific Coast Highway); geocoding normalisation required</li>
-        <li>Field report quality is the weakest real-world link — unstructured PDFs need pre-processing</li>
+        <li><strong>Synthetic field data</strong> — real post-disaster field reports and parcel damage records are not publicly available; we generated realistic substitutes using Claude, structured to match the FEMA PDA format</li>
+        <li><strong>Drone footage is public YouTube video</strong> — not mission-tagged UAS feeds; no embedded GPS, so geo-location is inferred from visible landmarks</li>
+        <li><strong>Pre-event satellite is from 2014</strong> — Esri Wayback's earliest tile; a production system would use imagery from days before the event</li>
+        <li><strong>Not yet tested at scale</strong> — validated on 5 hand-labeled sites across 2 events; larger events with hundreds of addresses need further testing</li>
       </ul>
     </div>
 
